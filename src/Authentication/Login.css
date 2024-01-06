@@ -1,0 +1,84 @@
+html {
+    background-color: #f5e9e9;
+}
+
+.manin_container {
+    margin-top: 95px;
+    height: 100%;
+    background-color: #f5e9e9;
+}
+
+.login_container {
+    display: flex;
+    width: 400px;
+    margin: 0 200px;
+    background-color: #f5e9e9;
+}
+
+.login_image {
+    display: flex;
+    width: 420px;
+    margin: 0 235px;
+    background-color: #f5e9e9;
+}
+
+.login_help {
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.login_control {
+    display: flex;
+    flex-direction: column;
+    margin: 0 435px;
+    height: 215px;
+    width: 420px;
+    background-color: #fff;
+}
+
+.login_header {
+    background-color: #fff;
+    margin: 0 435px;
+    border: none;
+    height: 40px;
+    width: 420px;
+}
+
+.tems_of_use {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.login_signup {
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.login_text_input {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 360px;
+    border: 1px solid #dcdbdb;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.login_text_input:focus {
+    outline: none;
+}
+
+.login_button {
+    margin-top: 25px;
+    height: 45px;
+    width: 360px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f54e77;
+    color: #fff;
+    margin-left: 30px;
+}
