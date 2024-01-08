@@ -3,6 +3,9 @@ import "./Login.css";
 function Login() {
   return (
     <>  
+    <div className="header">
+        <TopHeader2 />
+      </div>
     <div className="manin_container">
       <div className="login_container">
         <img
@@ -23,7 +26,7 @@ function Login() {
           required
         />
         <span className="tems_of_use">
-          By continuing, I agree to the{" "}
+          By continuing, I agree to the
           <a
             style={{
               color: "#f54e77",
@@ -33,8 +36,8 @@ function Login() {
             href="#"
           >
             Terms & Use
-          </a>{" "}
-          &{" "}
+          </a>
+          &
           <a
             style={{
               color: "#f54e77",
@@ -56,8 +59,7 @@ function Login() {
               fontWeight: "700",
             }}
             href="#"
-          >
-            Get help
+          > Get help
           </a>          
         </span>
       </div>

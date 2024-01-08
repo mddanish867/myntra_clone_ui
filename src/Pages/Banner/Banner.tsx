@@ -18,8 +18,11 @@ function Banner() {
     <div className="carousel-item active">
       <img src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/banner.jpg?raw=true" alt="Los Angeles" className="d-block banner_image"/>
     </div>
-    <div className="carousel-item">
-      <img src="https://cdna.artstation.com/p/assets/images/images/040/183/038/large/sonam-saxena-ntcc-8.jpg?1628098115" alt="Chicago" className="d-block banner_image"/>
+    <div className="carousel-item active">
+      <img src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/banner.jpg?raw=true" alt="Los Angeles" className="d-block banner_image"/>
+    </div>
+    <div className="carousel-item active">
+      <img src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/banner.jpg?raw=true" alt="Los Angeles" className="d-block banner_image"/>
     </div>
     <div className="carousel-item">
       <img src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/banner.jpg?raw=true" alt="New York" className="d-block banner_image"/>

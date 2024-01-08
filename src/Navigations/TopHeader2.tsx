@@ -7,13 +7,13 @@ function TopHeader2() {
   return (
     <>
       <div className="logo_container">
-        <a href="#">
+        <Link to="/">
           <img
             className="myntra_home"
             src="https://raw.githubusercontent.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/main/Project%20Myntra%20Clone/images/myntra_logo.webp"
             alt="not found"
           ></img>
-        </a>
+        </Link>
       </div>
       <nav className="nav_bar">
         <a href="#">Men</a>
@@ -33,7 +33,7 @@ function TopHeader2() {
         ></input>
       </div>
       <div className="action_bar">
-        <div className="action_container">
+        <div className="action_container_profile">
           <div className="dropdown">
             {/* start popup */}
             {/* <div className="dropdown"> */}
@@ -57,9 +57,9 @@ function TopHeader2() {
                 <Link to="/catalog" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Orders
                 </Link>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to="/productdetails" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Wishlist
-                </a>
+                </Link>
                 <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Gift Card
                 </a>
@@ -97,17 +97,17 @@ function TopHeader2() {
             {/* end popup */}
           </div>
         </div>
-        <div className="action_container">
+        <div className="action_container_wishlist">
           <span className="material-symbols-outlined action_icon">
             favorite
           </span>
           <span className="action_name">Wishlist</span>
         </div>
-        <div className="action_container">
+        <div className="action_container_bag">
           <span className="material-symbols-outlined action_icon">
             shopping_bag
           </span>
-          <span className="action_name">bag</span>
+          <span onClick={()=>navigate("/cartdetails")} className="action_name">bag</span>
         </div>
       </div>
     </>

@@ -1,0 +1,142 @@
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+    color: #3b71ca !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+  .header {
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: "0 0px 10px 0 rgba(0, 0, 0, 0.14);";
+}
+.breadcrum_links{
+    color: black;
+    text-decoration: none;
+}
+.product_details{
+    display: flex;
+    flex-direction: row;
+}
+.product_detail_image{
+    flex: 0.6;
+}
+.product_details_link{
+    flex: 0.4;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.sale_item{
+    width: 340px;
+    margin-top: -60px;
+    height: 580px;
+    justify-content: space-between;
+}
+.price_details{
+    display: flex;
+    flex-direction: row;
+}
+.size_radio{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.size_name_header{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.product_buy_wish_btn{
+    display: flex;
+    flex-direction: row;
+}
+.add_to_bag_btn{
+    display: flex;
+    flex-direction: row;
+    margin-right: 13px;
+    border: none;
+    background-color: #f54e77;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 235px;
+    height: 50px;
+    align-items: center;    
+}
+.add_to_bag_btn:hover{
+    margin-right: 13px;
+    border: none;
+    background-color: #f54e77;
+    color: white;
+   
+}
+.add_to_bag_btn:focus{   
+    background-color: #f54e77;   
+}
+.wishlist_btn{
+    display: flex;
+    flex-direction: row;
+    margin-right: 13px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+}
+.wishlist_btn:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.delivery_check{
+    display: flex;
+    flex-direction: row;
+}
+.pin_check {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #dcdbdb;
+    padding: 10px;
+    border-right: 0;
+}
+
+.pin_check:focus {
+    outline: none;
+}
+.pin_check_btn{
+    border: 1px solid #dcdbdb;
+    border-left: 0;
+    padding-top: 10px;
+    padding-right: 12px;
+    text-decoration: none;
+    color: #f54e77;
+    font-size: 12px;
+    font-weight: 700;
+}
+.product_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.offer_link{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

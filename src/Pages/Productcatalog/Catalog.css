@@ -1,0 +1,84 @@
+.icon-control {
+    margin-top: 5px;
+    float: right;
+    font-size: 80%;
+}
+
+
+
+.btn-light {
+    background-color: #fff;
+    border-color: #e4e4e4;
+}
+
+.list-menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.list-menu a {
+    color: #343a40;
+}
+
+.card-product-grid .info-wrap {
+    overflow: hidden;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*='card-product'] a.title {
+    color: #212529;
+    display: block;
+}
+
+.card-product-grid:hover .btn-overlay {
+    opacity: 3;
+}
+.card-product-grid .btn-overlay {
+    -webkit-transition: .5s;
+    transition: .5s;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    color: black;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    background: #fff(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 75px;
+}
+.img-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.header {
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: "0 0px 10px 0 rgba(0, 0, 0, 0.14);";
+}
+.card-header{
+    background-color: #fff;
+    border: none;
+}
+.custom-checkbox{
+    display: flex;
+    flex-direction: row;
+}
+.filter_search_icone:hover{
+background-color: #fff;
+color: black;
+}
+.filter_search_icone:focus{
+border-left: 0;
+border-radius: 30px;
+}
+.filter_text{
+background-color: #eef0f3;
+}
