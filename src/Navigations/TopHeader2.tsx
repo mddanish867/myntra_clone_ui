@@ -98,13 +98,13 @@ function TopHeader2() {
           </div>
         </div>
         <div className="action_container_wishlist">
-          <span className="material-symbols-outlined action_icon">
+          <span className="material-symbols-outlined action_icon" onClick={()=>navigate("/wishlist")}>
             favorite
           </span>
-          <span className="action_name">Wishlist</span>
+          <span className="action_name" onClick={()=>navigate("/wishlist")}>Wishlist</span>
         </div>
         <div className="action_container_bag">
-          <span className="material-symbols-outlined action_icon">
+          <span className="material-symbols-outlined action_icon" onClick={()=>navigate("/cartdetails")}>
             shopping_bag
           </span>
           <span onClick={()=>navigate("/cartdetails")} className="action_name">bag</span>

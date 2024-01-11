@@ -6,6 +6,7 @@ import Login from "./Authentication/Login";
 import Catalog from "./Pages/Productcatalog/Catalog";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import CartDetails from "./Pages/Cart/CartDetails";
+import Wishlist from "./Pages/Wishlist/Wishlist";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="catalog" element={<Catalog />} />
           <Route path="productdetails" element={<ProductDetails />} />
           <Route path="cartdetails" element={<CartDetails />} />
+          <Route path="wishlist" element={<Wishlist />} />
+
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>
