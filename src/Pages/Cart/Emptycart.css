@@ -1,0 +1,81 @@
+.empty_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+.empty_cart > img{
+    width: 146px;
+    height: 153px;
+    margin-left: -5px;
+}
+.empty_cart > h4{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.empty_cart > p{
+    font-size: 14px;
+    color: gray;
+}
+.empty_cart > button{
+    border: 1px solid #f54e77;
+    border-radius: 2px;
+    color: #f54e77;
+    font-weight: 700;
+    font-size: 14px;
+    height: 45px;
+}
+.empty_cart > button:hover{
+    border: 1px solid #f54e77;
+    border-radius: 2px;
+    color: #f54e77;
+    font-weight: 700;
+    font-size: 14px;
+}
+.empty_cart > button:focus{
+    border: 1px solid #f54e77;
+    border-radius: 2px;
+    color: #f54e77;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cart_header {
+    height: 78px;
+    border: 1ps solid #ccc;
+}
+.logo_container {
+    margin-left: 51px;
+    margin-top: 4px;
+}
+.myntra_home {
+    height: 40px;
+    margin-top: 14px;
+}
+.cart_address_stepper {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-left: 485px;
+    margin-top: -27px;
+}
+.car_bag>span {
+    border-bottom: 2px solid #04966a;
+    color: #04966a;
+}
+.cart_auth_sec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1057px;
+    margin-top: -25px;
+}
+.cart_auth_sec>span {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.cart_sec_image {
+    height: 28px;
+
+}

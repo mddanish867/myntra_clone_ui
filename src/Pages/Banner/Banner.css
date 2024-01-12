@@ -4,3 +4,6 @@
     height: 340px;
     margin-top: 40px;
 }
+.carousel-indicators{
+    background: 0;
+}

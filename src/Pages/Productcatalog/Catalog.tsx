@@ -873,11 +873,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -913,11 +913,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -953,11 +953,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -993,11 +993,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -1033,11 +1033,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -1073,11 +1073,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -1113,11 +1113,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
@@ -1153,11 +1153,11 @@ export default function Catalog() {
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px"}}>
+                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
+                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
                         favorite
                       </span>
-                      Wishlist
+                      <span style={{marginTop:"8px"}}>Wishlist</span>
                     </a>
                     <div className="fix-height">
                     <a
