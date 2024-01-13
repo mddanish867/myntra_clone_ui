@@ -9,6 +9,9 @@ import CartDetails from "./Pages/Cart/CartDetails";
 import Wishlist from "./Pages/Wishlist/Wishlist";
 import Emptycart from "./Pages/Cart/Emptycart";
 import Emptywishlist from "./Pages/Wishlist/Emptywishlist";
+import AddressVerification from "./Pages/Addresses/AddressVerification";
+import CustomePopUps from "./Pages/Popups/CustomePopUps";
+import Checkout from "./Pages/Payment/Checkout";
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
           <Route path="emptycart" element={<Emptycart />} />
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="emptywishlist" element={<Emptywishlist />} />
+          <Route path="addressverification" element={<AddressVerification/>} />
+          <Route path="checkout" element={<Checkout/>} />
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>

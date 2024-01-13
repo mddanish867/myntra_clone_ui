@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Cart.css";
 import { useState } from "react";
 import CustomePopUps from "../Popups/CustomePopUps";
 
 function CartDetails() {
+  const navigate = useNavigate();
   const [showMore, setShowMore] = useState(false);
   const handleShowMore = () => {
     if (showMore === false) {
@@ -12,6 +13,10 @@ function CartDetails() {
       setShowMore(false);
     }
   };
+
+  const handlePlaceOrder = () =>{
+    navigate("/addressverification");
+  }
   return (
     <>
       <div className="cart_header">
@@ -29,9 +34,9 @@ function CartDetails() {
             <span>B A G</span>
           </div>
           <div className="cart_dot mx-1">---------- </div>
-          <div className="cart_address mx-1"> A D D R E S S</div>
-          <div className="cart_dot mx-1">---------- </div>
-          <div className="cart_paymet mx-1"> P A Y M E N T</div>
+          <div className="mx-1"> A D D R E S S</div>
+          <div className="mx-1">---------- </div>
+          <div className="mx-1"> P A Y M E N T</div>
         </div>
         <div className="cart_auth_sec">
           <img
@@ -261,7 +266,7 @@ function CartDetails() {
                 Rs.496
               </span>
             </div>
-            <button className="place_order_btn">PLACE ORDER</button>
+            <button className="place_order_btn" onClick={()=> handlePlaceOrder()}>PLACE ORDER</button>
           </div>
         </div>
       </div>
