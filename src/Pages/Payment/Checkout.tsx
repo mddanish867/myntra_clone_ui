@@ -7,6 +7,7 @@ function Checkout() {
   const [showMore, setShowMore] = useState(false);
   const [isCODSelected, setIsCODSelected] = useState(true);
   const [isGPaySelected, setIsGpaySelected] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
 
   const handleShowMore = () => {
     if (showMore === false) {
@@ -16,22 +17,15 @@ function Checkout() {
     }
   };
 
-  const handleCODPaymentOption = () => {
-    if (isCODSelected === true) {
-      setIsCODSelected(false);
-    } else {
+  const handleCODPaymentOption = () => {    
       setIsCODSelected(true);
-      setIsGpaySelected(false);
-    }
+      setIsGpaySelected(false);    
   };
 
-  const handleGPayOption = () => {
-    if (isGPaySelected === false) {
+  const handleGPayOption = () => {    
       setIsGpaySelected(true);
       setIsCODSelected(false);
-    } else {
-      setIsGpaySelected(false);
-    }
+   
   };
 
   const handlePlaceOrder = () => {
@@ -67,11 +61,14 @@ function Checkout() {
         </div>
       </div>
 
-      <div className="cart_summry">
-        <div className="cart_deatils_desc">
-          <div className="avail_offers">
-            <span className="avail_offers_tag">Available Offers</span>
-            <ul className="avail_0ffers_list">
+      <div className="cart_summry_payment">
+        <div className="cart_deatils_desc_payment">
+          <div
+            className="avail_offers_payment"
+            style={showMore ? { height: "300px" } : { height: "108px" }}
+          >
+            <span className="avail_offers_tag_payment">Available Offers</span>
+            <ul className="avail_0ffers_list_payment">
               {showMore === false ? (
                 <li style={{ marginLeft: "15px" }}>
                   10% Instant Discount on IDFC FIRST Bank on Credit and Debit
@@ -79,31 +76,31 @@ function Checkout() {
                 </li>
               ) : (
                 <ul>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
-                  <li className="avail_0ffers_list">
+                  <li className="avail_0ffers_list_payment">
                     10% Instant Discount on IDFC FIRST Bank on Credit and Debit
                     cards on min spend of 2.500, TCA.
                   </li>
@@ -111,62 +108,152 @@ function Checkout() {
               )}
             </ul>
             <button
-              className="btn default show_more_btn"
+              className="btn default show_more_btn_payment"
               onClick={() => handleShowMore()}
             >
               {showMore === false ? "Show More" : "Show Less"}
             </button>
           </div>
 
-          <p style={{ fontWeight: 700, fontSize: "14px", marginLeft: "165px" }}>
+          <p
+            style={{
+              fontWeight: 700,
+              fontSize: "14px",
+              marginLeft: "132px",
+              marginTop: "10px",
+            }}
+          >
             Choose Payment Mode
           </p>
           <div className="payment_option">
             <div className="payment_name_recommend">
               <button
                 className="recommend_btn"
-                style={ isCODSelected ? { borderLeft:'5px solid rgb(255, 63, 108)', background: '#fff',color:"rgb(255, 63, 108)",fontWeight:"600"} : {borderLeft:"none",background:"gainsboro"}}
+                style={
+                  isCODSelected
+                    ? {
+                      borderLeft: "5px solid rgb(255, 63, 108)",
+                      background: "#fff",
+                      color: "rgb(255, 63, 108)",
+                      fontWeight: "600",
+                      textAlign: "center",
+                      fontSize: "13px",
+                      }
+                    : { borderLeft: "none",
+                    background: "#f1f1f1",
+                    fontWeight: "600",
+                    textAlign: "center",
+                    fontSize: "13px", }
+                }
                 onClick={() => handleCODPaymentOption()}
               >
                 <span
                   className="material-symbols-outlined"
-                  style={{ fontSize: "15px", background: 0,marginLeft:"-50px" }}
+                  style={isCODSelected ? {
+                    fontSize: "13px",
+                    background: 0,
+                    marginLeft: "-50px",
+                  }:
+                
+                {
+                  fontSize: "13px",
+                    background: 0,
+                    marginLeft: "-50px",
+                }}
                 >
                   kid_star
                 </span>
-                <span className="mx-1" style={{background:0}}>Recommended</span>
+                <span
+                  className="mx-1"
+                  style={isCODSelected ? { background: 0, fontWeight: 600, fontSize: "13px" } : {background: 0, fontWeight: 600, fontSize: "13px"}}
+                >
+                  Recommended
+                </span>
               </button>
 
               <button
                 className="recommend_btn"
                 onClick={() => handleGPayOption()}
-                style={ isGPaySelected ? { borderLeft:'5px solid rgb(255, 63, 108)', background: '#fff',color:"rgb(255, 63, 108)",fontWeight:"600"} : {borderLeft:"none",background:"gainsboro"}}
-
+                style={
+                  isGPaySelected
+                    ? {
+                        borderLeft: "5px solid rgb(255, 63, 108)",
+                        background: "#fff",
+                        color: "rgb(255, 63, 108)",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
+                      }
+                    : {
+                        borderLeft: "none",
+                        background: "#f1f1f1",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
+                      }
+                }
               >
                 <span
                   className="material-symbols-outlined"
-                  style={{ fontSize: "15px", background: 0 }}
+                  style={isGPaySelected ? { fontSize: "13px", background: 0,marginLeft:"15px"
+                }: {fontSize: "13px", background: 0,marginLeft:"15px"}}
                 >
                   payments
                 </span>
-                <span className="mx-1" style={{background:0}}>Cash on Delivery (Cash/UPI)</span>
-
-                
-              </button>                        
-              
+                <span className="mx-1" style={{ background: 0 }}>
+                  Cash on Delivery (Cash/UPI)
+                </span>
+              </button>
             </div>
 
             <div className="recomend_options">
-              <p>Recommended Payment Options</p>
+              <p style={{ marginBottom: "30px" }}>
+                Recommended Payment Options
+              </p>
+
               <div className="payment_checked">
                 <input
                   type="radio"
                   id="html"
                   name="fav_language"
                   value="HTML"
+                  onClick={() => setIsChecked(true)}
                 />
-                  <label htmlFor="html">Cash on Delivery (Cash/UPI)</label>
+                <label className="mx-2" htmlFor="html">
+                  Cash on Delivery (Cash/UPI){" "}
+                  <span
+                    className="material-symbols-outlined"
+                    style={{
+                      fontSize: "18px",
+                      background: 0,
+                      marginLeft: "75px",
+                    }}
+                  >
+                    payments
+                  </span>
+                </label>
               </div>
+              {isChecked ? (
+                <div className="Cod_payment">
+                  <input
+                    className="cod_image"
+                    type="text"
+                    placeholder="2345"
+                    readOnly
+                  ></input>
+                  <input
+                    className="cod_payment_code"
+                    type="text"
+                    placeholder="Enter code shown in above image*"
+                  ></input>
+                  <span className="cod_payment_span">
+                    You can pay via Cash/UPI
+                  </span>
+                  <button className="cod_btn_payment">PLACE ORDER</button>
+                </div>
+              ) : (
+                ""
+              )}
 
               <div className="google_pay_mode">
                 <input
@@ -175,7 +262,24 @@ function Checkout() {
                   name="fav_language"
                   value="HTML"
                 />
-                  <label htmlFor="html"> Google Pay</label>
+                <label className="mx-2" htmlFor="html">
+                  {" "}
+                  Google Pay
+                  <span>
+                    <img
+                      style={{ height: "25px", marginLeft: "188px" }}
+                      src="https://media.assettype.com/bloombergquint%2Fimport%2Fm4p4r1r_google-pay_625x300_12_April_19.jpg?auto=format%2Ccompress&w=576"
+                    ></img>
+                  </span>
+                </label>
+              </div>
+              <div className="Gpay_payment">
+                <input
+                  className="Gpay_payment_code"
+                  type="text"
+                  placeholder="Enter code shown in above image*"
+                ></input>
+                <button className="Gapy_btn_payment">PAY NOW</button>
               </div>
             </div>
           </div>
@@ -241,12 +345,6 @@ function Checkout() {
                 Rs.496
               </span>
             </div>
-            <button
-              className="place_order_btn"
-              onClick={() => handlePlaceOrder()}
-            >
-              PLACE ORDER
-            </button>
           </div>
         </div>
       </div>

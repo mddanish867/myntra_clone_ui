@@ -59,7 +59,10 @@ function CartDetails() {
             </button>
           </div>
 
-          <div className="avail_offers">
+          <div className="avail_offers"
+          style={showMore ? {height:"300px"}: {height:"108px"}}
+
+          >
             <span className="avail_offers_tag">Available Offers</span>
             <ul className="avail_0ffers_list">
               {showMore === false ? (
