@@ -8,7 +8,7 @@ function ProductDetails() {
       <div className="header">
         <TopHeader2 />
       </div>
-      <div className="bg-default">
+      <div className="bg-default" style={{marginTop:"5px"}}>
         <div className="container py-4">
           <nav className="d-flex">
             <h6 className="mb-0">
@@ -34,52 +34,45 @@ function ProductDetails() {
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/1.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/3/b/g/s-hlsh013507-highlander-original-imagdrcubg5hygkf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </a>
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/2.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/g/i/i/s-hlsh013507-highlander-original-imagdrcuxzpzgpbz.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </a>
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/3.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/9/p/p/s-hlsh013507-highlander-original-imagdrcufrhgtytk.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </a>
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/4.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/5/a/u/s-hlsh013507-highlander-original-imagdrcuz8mbcff8.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </a>
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/5.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/v/s/t/s-hlsh013507-highlander-original-imagdrcu5grajbzj.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </a>
             <a href="#">
               <img
                 className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/6.png?raw=true"
+                src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/7/b/o/s-hlsh013507-highlander-original-imagdrcu4jhtbuaf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
-              <img
-                className="sale_item"
-                src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/offers/7.png?raw=true"
-                alt="no image"
-              ></img>
-            </a>
+            </a>            
           </div>
         </div>
         <div className="product_details_link">
