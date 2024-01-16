@@ -5,9 +5,11 @@ import { useState } from "react";
 function Checkout() {
   const navigate = useNavigate();
   const [showMore, setShowMore] = useState(false);
-  const [isCODSelected, setIsCODSelected] = useState(true);
-  const [isGPaySelected, setIsGpaySelected] = useState(false);
-  const [isChecked, setIsChecked] = useState(false);
+  const [isRecommendedSelected, setIsRecommendedSelected] = useState(true);
+  const [isCODSelected, setIsCODSelected] = useState(false);
+  const [isCardSelected, setIsCardSelected] = useState(false);
+  const [isCodChecked, setIsCodChecked] = useState(false);
+  const [isGpayChecked, setIsGpayChecked] = useState(false);
 
   const handleShowMore = () => {
     if (showMore === false) {
@@ -17,17 +19,36 @@ function Checkout() {
     }
   };
 
-  const handleCODPaymentOption = () => {    
-      setIsCODSelected(true);
-      setIsGpaySelected(false);    
+  const handleRecommendedPaymentOption = () => {
+    setIsRecommendedSelected(true);
+    setIsCODSelected(false);
+    setIsCardSelected(false);
   };
 
-  const handleGPayOption = () => {    
-      setIsGpaySelected(true);
-      setIsCODSelected(false);
-   
+  const handleCodpaymentOption = () => {
+    setIsCODSelected(true);
+    setIsRecommendedSelected(false);
+    setIsCardSelected(false);
+    setIsCodChecked(false);
+    setIsGpayChecked(false);
   };
 
+  const handleCardPaymentOption = () => {
+    setIsCardSelected(true);
+    setIsRecommendedSelected(false);
+    setIsCODSelected(false);
+    setIsCodChecked(false);
+    setIsGpayChecked(false);
+  };
+  const handleCodChecked = () => {
+    setIsCodChecked(true);
+    setIsGpayChecked(false);
+  };
+
+  const handleGapyChecked = () => {
+    setIsGpayChecked(true);
+    setIsCodChecked(false);
+  };
   const handlePlaceOrder = () => {
     navigate("/addressverification");
   };
@@ -63,6 +84,7 @@ function Checkout() {
 
       <div className="cart_summry_payment">
         <div className="cart_deatils_desc_payment">
+          {/* Start Available Offers Section */}
           <div
             className="avail_offers_payment"
             style={showMore ? { height: "300px" } : { height: "108px" }}
@@ -114,7 +136,9 @@ function Checkout() {
               {showMore === false ? "Show More" : "Show Less"}
             </button>
           </div>
+          {/* End Available Offers Section */}
 
+          {/* Start Choose Payment Section */}
           <p
             style={{
               fontWeight: 700,
@@ -127,55 +151,65 @@ function Checkout() {
           </p>
           <div className="payment_option">
             <div className="payment_name_recommend">
+              {/* Recommended Payment option button*/}
               <button
                 className="recommend_btn"
                 style={
-                  isCODSelected
+                  isRecommendedSelected
                     ? {
-                      borderLeft: "5px solid rgb(255, 63, 108)",
-                      background: "#fff",
-                      color: "rgb(255, 63, 108)",
-                      fontWeight: "600",
-                      textAlign: "center",
-                      fontSize: "13px",
+                        borderLeft: "5px solid rgb(255, 63, 108)",
+                        background: "#fff",
+                        color: "rgb(255, 63, 108)",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
                       }
-                    : { borderLeft: "none",
-                    background: "#f1f1f1",
-                    fontWeight: "600",
-                    textAlign: "center",
-                    fontSize: "13px", }
+                    : {
+                        borderLeft: "none",
+                        background: "#f1f1f1",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
+                      }
                 }
-                onClick={() => handleCODPaymentOption()}
+                onClick={() => handleRecommendedPaymentOption()}
               >
                 <span
                   className="material-symbols-outlined"
-                  style={isCODSelected ? {
-                    fontSize: "13px",
-                    background: 0,
-                    marginLeft: "-50px",
-                  }:
-                
-                {
-                  fontSize: "13px",
-                    background: 0,
-                    marginLeft: "-50px",
-                }}
+                  style={
+                    isCODSelected
+                      ? {
+                          fontSize: "13px",
+                          background: 0,
+                          marginLeft: "-50px",
+                        }
+                      : {
+                          fontSize: "13px",
+                          background: 0,
+                          marginLeft: "-50px",
+                        }
+                  }
                 >
                   kid_star
                 </span>
                 <span
                   className="mx-1"
-                  style={isCODSelected ? { background: 0, fontWeight: 600, fontSize: "13px" } : {background: 0, fontWeight: 600, fontSize: "13px"}}
+                  style={
+                    isCODSelected
+                      ? { background: 0, fontWeight: 600, fontSize: "13px" }
+                      : { background: 0, fontWeight: 600, fontSize: "13px" }
+                  }
                 >
                   Recommended
                 </span>
               </button>
 
+              {/* Cash on Delivery Payment option button*/}
               <button
                 className="recommend_btn"
-                onClick={() => handleGPayOption()}
+                onClick={() => handleCodpaymentOption()}
                 style={
-                  isGPaySelected
+                  isCODSelected
                     ? {
                         borderLeft: "5px solid rgb(255, 63, 108)",
                         background: "#fff",
@@ -195,8 +229,11 @@ function Checkout() {
               >
                 <span
                   className="material-symbols-outlined"
-                  style={isGPaySelected ? { fontSize: "13px", background: 0,marginLeft:"15px"
-                }: {fontSize: "13px", background: 0,marginLeft:"15px"}}
+                  style={
+                    isCODSelected
+                      ? { fontSize: "13px", background: 0, marginLeft: "15px" }
+                      : { fontSize: "13px", background: 0, marginLeft: "15px" }
+                  }
                 >
                   payments
                 </span>
@@ -204,36 +241,140 @@ function Checkout() {
                   Cash on Delivery (Cash/UPI)
                 </span>
               </button>
+
+              {/* Creadit/Debit Card payment options button*/}
+              <button
+                className="recommend_btn"
+                onClick={() => handleCardPaymentOption()}
+                style={
+                  isCardSelected
+                    ? {
+                        borderLeft: "5px solid rgb(255, 63, 108)",
+                        background: "#fff",
+                        color: "rgb(255, 63, 108)",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
+                      }
+                    : {
+                        borderLeft: "none",
+                        background: "#f1f1f1",
+                        fontWeight: "600",
+                        textAlign: "center",
+                        fontSize: "13px",
+                      }
+                }
+              >
+                <span
+                  className="material-symbols-outlined"
+                  style={
+                    isCardSelected
+                      ? { fontSize: "13px", background: 0, marginLeft: "-50px" }
+                      : { fontSize: "13px", background: 0, marginLeft: "-50px" }
+                  }
+                >
+                  credit_card
+                </span>
+                <span className="mx-1" style={{ background: 0 }}>
+                  Credit/Debit Card
+                </span>
+              </button>
             </div>
 
-            <div className="recomend_options">
-              <p style={{ marginBottom: "30px" }}>
-                Recommended Payment Options
-              </p>
+            {/* Recommended Payment option field */}
+            {isRecommendedSelected && (
+              <div className="recomend_options">
+                <p style={{ marginBottom: "30px" }}>
+                  Recommended Payment Options
+                </p>
 
-              <div className="payment_checked">
-                <input
-                  type="radio"
-                  id="html"
-                  name="fav_language"
-                  value="HTML"
-                  onClick={() => setIsChecked(true)}
-                />
-                <label className="mx-2" htmlFor="html">
-                  Cash on Delivery (Cash/UPI){" "}
-                  <span
-                    className="material-symbols-outlined"
-                    style={{
-                      fontSize: "18px",
-                      background: 0,
-                      marginLeft: "75px",
-                    }}
-                  >
-                    payments
-                  </span>
-                </label>
+                {/* Cash on Delivery Payment options field */}
+                <div className="payment_checked">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    value="HTML"
+                    onClick={() => handleCodChecked()}
+                  />
+                  <label className="mx-2" htmlFor="html">
+                    Cash on Delivery (Cash/UPI){" "}
+                    <span
+                      className="material-symbols-outlined"
+                      style={{
+                        fontSize: "18px",
+                        background: 0,
+                        marginLeft: "75px",
+                      }}
+                    >
+                      payments
+                    </span>
+                  </label>
+                </div>
+                {isCodChecked ? (
+                  <div className="Cod_payment">
+                    <input
+                      className="cod_image"
+                      type="text"
+                      placeholder="2345"
+                      readOnly
+                    ></input>
+                    <input
+                      className="cod_payment_code"
+                      type="text"
+                      placeholder="Enter code shown in above image*"
+                    ></input>
+                    <span className="cod_payment_span">
+                      You can pay via Cash/UPI
+                    </span>
+                    <button className="cod_btn_payment">PLACE ORDER</button>
+                  </div>
+                ) : (
+                  ""
+                )}
+
+                {/* Googlepay payment options field */}
+                <div className="google_pay_mode">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    value="HTML"
+                    onClick={() => handleGapyChecked()}
+                  />
+                  <label className="mx-2" htmlFor="html">
+                    {" "}
+                    Google Pay
+                    <span>
+                      <img
+                        style={{ height: "25px", marginLeft: "188px" }}
+                        src="https://media.assettype.com/bloombergquint%2Fimport%2Fm4p4r1r_google-pay_625x300_12_April_19.jpg?auto=format%2Ccompress&w=576"
+                      ></img>
+                    </span>
+                  </label>
+                </div>
+                {isGpayChecked ? (
+                  <div className="Gpay_payment">
+                    <input
+                      className="Gpay_payment_code"
+                      type="text"
+                      placeholder="Enter code shown in above image*"
+                    ></input>
+                    <button className="Gapy_btn_payment">PAY NOW</button>
+                  </div>
+                ) : (
+                  ""
+                )}
               </div>
-              {isChecked ? (
+            )}
+
+            {/* cash on Delivery payment option field */}
+            {isCODSelected && (
+              <div className="recomend_options">
+                <p style={{ marginBottom: "30px" }}>
+                  Cash on Delivery (Cash/UPI)
+                </p>
+
                 <div className="Cod_payment">
                   <input
                     className="cod_image"
@@ -251,38 +392,41 @@ function Checkout() {
                   </span>
                   <button className="cod_btn_payment">PLACE ORDER</button>
                 </div>
-              ) : (
-                ""
-              )}
-
-              <div className="google_pay_mode">
-                <input
-                  type="radio"
-                  id="html"
-                  name="fav_language"
-                  value="HTML"
-                />
-                <label className="mx-2" htmlFor="html">
-                  {" "}
-                  Google Pay
-                  <span>
-                    <img
-                      style={{ height: "25px", marginLeft: "188px" }}
-                      src="https://media.assettype.com/bloombergquint%2Fimport%2Fm4p4r1r_google-pay_625x300_12_April_19.jpg?auto=format%2Ccompress&w=576"
-                    ></img>
-                  </span>
-                </label>
               </div>
-              <div className="Gpay_payment">
+            )}
+            {isCardSelected && (
+              <div className="recomend_options">
+              <p style={{ marginBottom: "30px" }}>
+                CREDIT/DEBIT CARD
+              </p>
+
+              <span className="cod_payment_span">
+                  Please ensure your card can be used for online transactions.
+                </span>
+              <div className="Cod_payment">
+                
                 <input
-                  className="Gpay_payment_code"
+                  className="cod_payment_code"
                   type="text"
-                  placeholder="Enter code shown in above image*"
+                  placeholder="Enter Card Number"
                 ></input>
-                <button className="Gapy_btn_payment">PAY NOW</button>
+                <input
+                  className="cod_payment_code"
+                  type="text"
+                  placeholder="Name on card"
+                ></input>
+                <input
+                  className="cod_payment_code"
+                  type="text"
+                  placeholder="Valid Thru (MM/YY)"
+                ></input>
+                
+                <button className="cod_btn_payment">PAY NOW</button>
               </div>
             </div>
+            )}
           </div>
+          {/* End Choose Payment Section */}
         </div>
 
         <div className="cart_total_summary">
