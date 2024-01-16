@@ -12,6 +12,7 @@ import Emptywishlist from "./Pages/Wishlist/Emptywishlist";
 import AddressVerification from "./Pages/Addresses/AddressVerification";
 import CustomePopUps from "./Pages/Popups/CustomePopUps";
 import Checkout from "./Pages/Payment/Checkout";
+import AddWishlistItems from "./Pages/Wishlist/AddWishlistItems";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="emptywishlist" element={<Emptywishlist />} />
           <Route path="addressverification" element={<AddressVerification/>} />
           <Route path="checkout" element={<Checkout/>} />
+          <Route path="addwishlistitems" element={<AddWishlistItems/>} />
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>

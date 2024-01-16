@@ -52,7 +52,7 @@ export default function Catalog() {
       <div className="container my-4">
         <div className="row">
           <aside className="col-md-3" style={{ marginLeft: "-73px" }}>
-            <div className="card" style={{ borderTop: "0" }}>
+            <div className="card" style={{borderTop: "0",borderRight:"1px solid #eee",borderBottom:"0" }}>
               <article className="filter-group">
                 <header
                   className="card-header"
@@ -75,7 +75,6 @@ export default function Catalog() {
                     </p>
                   </a>
                 </header>
-                <hr style={{ marginTop: "-10px", color: "gray" }}></hr>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
@@ -88,7 +87,11 @@ export default function Catalog() {
                             type="text"
                             className="form-control filter_text"
                             placeholder="search for brands"
-                            style={{ height: "30px",borderRadius:"30px",borderRight:0 }}
+                            style={{
+                              height: "30px",
+                              borderRadius: "30px",
+                              borderRight: 0,
+                            }}
                           />
                         ) : (
                           <p style={{ fontSize: "12px" }}>
@@ -102,13 +105,15 @@ export default function Catalog() {
                             type="button"
                             style={{
                               marginLeft: `${
-                                brandflag === false ? "120px" : "0"
+                                brandflag === false ? "139px" : "0"
                               }`,
-                              height: "30px",backgroundColor:"#eef0f3",borderRadius:"30px"
+                              height: "30px",
+                              backgroundColor: "#eef0f3",
+                              borderRadius: "30px",
                             }}
                             onClick={() => handleFlag()}
                           >
-                            <span className="material-symbols-outlined">
+                            <span className="material-symbols-outlined filter_icon">
                               search
                             </span>
                           </button>
@@ -116,10 +121,7 @@ export default function Catalog() {
                       </div>
                     </form>
 
-                    <ul
-                      className="list-menu"
-                      style={{ marginLeft: "12px"}}
-                    >
+                    <ul className="list-menu" style={{ marginLeft: "12px" }}>
                       <li style={{ marginTop: "8px" }}>
                         <label className="custom-control custom-checkbox">
                           <input
@@ -250,30 +252,7 @@ export default function Catalog() {
                   </div>
                 </div>
               </article>
-              <hr />
               <article className="filter-group">
-                <header
-                  className="card-header"
-                  style={{ marginLeft: "9px", marginTop: "-5px" }}
-                >
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapse_1"
-                    aria-expanded="true"
-                    className=""
-                    style={{
-                      textDecoration: "none",
-                      color: "black",
-                      fontSize: "15px",
-                    }}
-                  >
-                    <p className="title">
-                      <b>FILTERS</b>
-                    </p>
-                  </a>
-                </header>
-                <hr style={{ marginTop: "-10px", color: "gray" }}></hr>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
@@ -286,11 +265,15 @@ export default function Catalog() {
                             type="text"
                             className="form-control filter_text"
                             placeholder="search for brands"
-                            style={{ height: "30px",borderRadius:"30px",borderRight:0 }}
+                            style={{
+                              height: "30px",
+                              borderRadius: "30px",
+                              borderRight: 0,
+                            }}
                           />
                         ) : (
                           <p style={{ fontSize: "12px" }}>
-                            <b>BRANDS</b>
+                            <b>PRICE</b>
                           </p>
                         )}
 
@@ -300,13 +283,15 @@ export default function Catalog() {
                             type="button"
                             style={{
                               marginLeft: `${
-                                brandflag === false ? "120px" : "0"
+                                brandflag === false ? "155px" : "0"
                               }`,
-                              height: "30px",backgroundColor:"#eef0f3",borderRadius:"30px"
+                              height: "30px",
+                              backgroundColor: "#eef0f3",
+                              borderRadius: "30px",
                             }}
                             onClick={() => handleFlag()}
                           >
-                            <span className="material-symbols-outlined">
+                            <span className="material-symbols-outlined filter_icon">
                               search
                             </span>
                           </button>
@@ -314,10 +299,7 @@ export default function Catalog() {
                       </div>
                     </form>
 
-                    <ul
-                      className="list-menu"
-                      style={{ marginLeft: "12px"}}
-                    >
+                    <ul className="list-menu" style={{ marginLeft: "12px" }}>
                       <li style={{ marginTop: "8px" }}>
                         <label className="custom-control custom-checkbox">
                           <input
@@ -448,30 +430,7 @@ export default function Catalog() {
                   </div>
                 </div>
               </article>
-              <hr />
               <article className="filter-group">
-                <header
-                  className="card-header"
-                  style={{ marginLeft: "9px", marginTop: "-5px" }}
-                >
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapse_1"
-                    aria-expanded="true"
-                    className=""
-                    style={{
-                      textDecoration: "none",
-                      color: "black",
-                      fontSize: "15px",
-                    }}
-                  >
-                    <p className="title">
-                      <b>FILTERS</b>
-                    </p>
-                  </a>
-                </header>
-                <hr style={{ marginTop: "-10px", color: "gray" }}></hr>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
@@ -484,11 +443,15 @@ export default function Catalog() {
                             type="text"
                             className="form-control filter_text"
                             placeholder="search for brands"
-                            style={{ height: "30px",borderRadius:"30px",borderRight:0 }}
+                            style={{
+                              height: "30px",
+                              borderRadius: "30px",
+                              borderRight: 0,
+                            }}
                           />
                         ) : (
                           <p style={{ fontSize: "12px" }}>
-                            <b>BRANDS</b>
+                            <b>COLORS</b>
                           </p>
                         )}
 
@@ -498,13 +461,15 @@ export default function Catalog() {
                             type="button"
                             style={{
                               marginLeft: `${
-                                brandflag === false ? "120px" : "0"
+                                brandflag === false ? "142px" : "0"
                               }`,
-                              height: "30px",backgroundColor:"#eef0f3",borderRadius:"30px"
+                              height: "30px",
+                              backgroundColor: "#eef0f3",
+                              borderRadius: "30px",
                             }}
                             onClick={() => handleFlag()}
                           >
-                            <span className="material-symbols-outlined">
+                            <span className="material-symbols-outlined filter_icon">
                               search
                             </span>
                           </button>
@@ -512,10 +477,7 @@ export default function Catalog() {
                       </div>
                     </form>
 
-                    <ul
-                      className="list-menu"
-                      style={{ marginLeft: "12px"}}
-                    >
+                    <ul className="list-menu" style={{ marginLeft: "12px" }}>
                       <li style={{ marginTop: "8px" }}>
                         <label className="custom-control custom-checkbox">
                           <input
@@ -646,30 +608,7 @@ export default function Catalog() {
                   </div>
                 </div>
               </article>
-              <hr />
               <article className="filter-group">
-                <header
-                  className="card-header"
-                  style={{ marginLeft: "9px", marginTop: "-5px" }}
-                >
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapse_1"
-                    aria-expanded="true"
-                    className=""
-                    style={{
-                      textDecoration: "none",
-                      color: "black",
-                      fontSize: "15px",
-                    }}
-                  >
-                    <p className="title">
-                      <b>FILTERS</b>
-                    </p>
-                  </a>
-                </header>
-                <hr style={{ marginTop: "-10px", color: "gray" }}></hr>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
@@ -682,11 +621,15 @@ export default function Catalog() {
                             type="text"
                             className="form-control filter_text"
                             placeholder="search for brands"
-                            style={{ height: "30px",borderRadius:"30px",borderRight:0 }}
+                            style={{
+                              height: "30px",
+                              borderRadius: "30px",
+                              borderRight: 0,
+                            }}
                           />
                         ) : (
                           <p style={{ fontSize: "12px" }}>
-                            <b>BRANDS</b>
+                            <b>DISCOUNT</b>
                           </p>
                         )}
 
@@ -696,13 +639,15 @@ export default function Catalog() {
                             type="button"
                             style={{
                               marginLeft: `${
-                                brandflag === false ? "120px" : "0"
+                                brandflag === false ? "127px" : "0"
                               }`,
-                              height: "30px",backgroundColor:"#eef0f3",borderRadius:"30px"
+                              height: "30px",
+                              backgroundColor: "#eef0f3",
+                              borderRadius: "30px",
                             }}
                             onClick={() => handleFlag()}
                           >
-                            <span className="material-symbols-outlined">
+                            <span className="material-symbols-outlined filter_icon">
                               search
                             </span>
                           </button>
@@ -710,10 +655,7 @@ export default function Catalog() {
                       </div>
                     </form>
 
-                    <ul
-                      className="list-menu"
-                      style={{ marginLeft: "12px"}}
-                    >
+                    <ul className="list-menu" style={{ marginLeft: "12px" }}>
                       <li style={{ marginTop: "8px" }}>
                         <label className="custom-control custom-checkbox">
                           <input
@@ -853,34 +795,52 @@ export default function Catalog() {
                 style={{ width: "285px", marginLeft: "660px" }}
               >
                 <select className="mr-2 form-control">
-                  <option>sort by: <b style={{fontWeight:700}}>Recommended</b></option>
+                  <option>
+                    sort by: <b style={{ fontWeight: 700 }}>Recommended</b>
+                  </option>
                   <option>Trending</option>
                   <option>Most Popular</option>
                   <option>Cheapest</option>
                 </select>
-                
               </div>
             </header>
 
             <div className="row">
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none",marginTop:"-24px"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none", marginTop: "-24px" }}
+                >
                   <div className="img-wrap">
                     <span className="badge badge-danger"> NEW </span>
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/1.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/o/6/h/3xl-wl051-rose-unemode-original-imagsx53sv3drytm.jpeg?q=70"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -890,14 +850,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -905,22 +891,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/2.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/w/y/o/m-flee18-navy-ewools-original-imagj6j87gauafru.jpeg?q=70&crop=false"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -930,14 +933,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -945,22 +974,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/3.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/832/832/kyvvtzk0/jacket/t/t/e/xl-yes-kttpufferjacket102-kotty-original-imagbym5yvu9bpkt.jpeg?q=70&crop=false"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -970,14 +1016,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -985,22 +1057,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/4.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/832/832/k23m4cw0/thermal/w/g/f/l-mulf-lt-001-set-cm-dollar-ultra-original-imaezx74k7q8y4m6.jpeg?q=70&crop=false"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -1010,14 +1099,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -1025,22 +1140,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/8.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/u/x/n/s-wm17-ss01-tan-alan-jones-original-imaghhyjtv3hpywq.jpeg?q=70&crop=false"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -1050,14 +1182,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -1065,22 +1223,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/5.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/5/1/h/xl-wmn-hdy-blk-iamdifrnt-sollobell-original-imagqqcpf4uzfy6h.jpeg?q=70"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -1090,14 +1265,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -1105,22 +1306,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/6.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/o/k/y/xxl-dbsg00001051-deebaco-original-imagv3uhz5bdnnm5.jpeg?q=70"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -1130,14 +1348,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>
@@ -1145,22 +1389,39 @@ export default function Catalog() {
               </div>
 
               <div className="col-md-3">
-                <figure className="card card-product-grid" style={{border:"none"}}>
+                <figure
+                  className="card card-product-grid"
+                  style={{ border: "none" }}
+                >
                   <div className="img-wrap">
                     <img
-                      src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/7.jpg?raw=true"
+                      src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/g/u/t/xl-dbsg00001022-deebaco-original-imagv3ugfhe4afgh.jpeg?q=70"
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                  <a className="btn-overlay" href="#" style={{textDecoration:"none",fontSize:"12px",fontWeight:700,display:"flex",flexDirection:"row"}}>
-                      <span className="material-symbols-outlined action_icon" style={{marginTop:"5px",marginLeft:"55px"}}>
+                    <a
+                      className="btn-overlay"
+                      href="#"
+                      style={{
+                        textDecoration: "none",
+                        fontSize: "12px",
+                        fontWeight: 700,
+                        display: "flex",
+                        flexDirection: "row",
+                        height: "35px",
+                      }}
+                    >
+                      <span
+                        className="material-symbols-outlined action_icon"
+                        style={{ marginTop: "5px", marginLeft: "55px" }}
+                      >
                         favorite
                       </span>
-                      <span style={{marginTop:"8px"}}>Wishlist</span>
+                      <span style={{ marginTop: "8px" }}>Wishlist</span>
                     </a>
                     <div className="fix-height">
-                    <a
+                      <a
                         href="#"
                         className="title"
                         style={{ textDecoration: "none" }}
@@ -1170,14 +1431,40 @@ export default function Catalog() {
                       <a
                         href="#"
                         className="title"
-                        style={{ textDecoration: "none",fontWeight:400,fontSize:"13px",color:'gray' }}
+                        style={{
+                          textDecoration: "none",
+                          fontWeight: 400,
+                          fontSize: "13px",
+                          color: "gray",
+                        }}
                       >
                         Mens slim Tapered Slim Jeans
                       </a>
                       <div className="price-wrap mt-2">
-                        <span className="price" style={{fontWeight:700,fontSize:"13px"}}>Rs. 1280</span>
-                        <del className="price-old text-muted" style={{fontSize:'13px'}}>  Rs.1980</del>
-                        <span className="price" style={{fontWeight:400,fontSize:"13px",color:"#f58742"}}> (69% OFF)</span>
+                        <span
+                          className="price"
+                          style={{ fontWeight: 700, fontSize: "13px" }}
+                        >
+                          Rs. 1280
+                        </span>
+                        <del
+                          className="price-old text-muted"
+                          style={{ fontSize: "13px" }}
+                        >
+                          {" "}
+                          Rs.1980
+                        </del>
+                        <span
+                          className="price"
+                          style={{
+                            fontWeight: 400,
+                            fontSize: "13px",
+                            color: "#f58742",
+                          }}
+                        >
+                          {" "}
+                          (69% OFF)
+                        </span>
                       </div>
                     </div>
                   </figcaption>

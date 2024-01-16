@@ -50,7 +50,7 @@
     text-align: center;
     position: absolute;
     background: #fff(0, 0, 0, 0.5);
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 75px;
@@ -69,11 +69,26 @@
 }
 .card-header{
     background-color: #fff;
-    border: none;
+    margin-left: 9px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+}
+.filter-group{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.filter_icon{
+    background: 0;
+    font-size: 20px;
+    margin-left: -7px
 }
 .custom-checkbox{
     display: flex;
     flex-direction: row;
+}
+.filter_search_icone{
+    height: 30px;
+    width: 30px;
 }
 .filter_search_icone:hover{
 background-color: #fff;

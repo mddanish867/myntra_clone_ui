@@ -44,7 +44,17 @@
 .price_details{
     display: flex;
     flex-direction: row;
+    margin-left: 0;
 }
+.product_size_box{
+    border-radius: 50%;
+    width: 50px;
+    border: 1px solid #ccc;
+    height: 50px;
+    padding-top: 12px;
+    color: #ccc;
+}
+
 .size_radio{
     display: flex;
     flex-direction: column;
@@ -82,6 +92,9 @@
 }
 .add_to_bag_btn:focus{   
     background-color: #f54e77;   
+}
+.add_to_bag_btn>span{
+    background: 0;
 }
 .wishlist_btn{
     display: flex;

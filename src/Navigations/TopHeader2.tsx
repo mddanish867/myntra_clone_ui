@@ -29,7 +29,7 @@ function TopHeader2() {
         <span className="material-symbols-outlined search_icon">search</span>
         <input
           className="search_input"
-          placeholder="Search for Ppoduct, brands and more"
+          placeholder="Search for product, brands and more"
         ></input>
       </div>
       <div className="action_bar">

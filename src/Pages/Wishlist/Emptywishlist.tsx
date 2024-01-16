@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Emptywishlist.css'
 
 function Emptywishlist() {
+  const navigate=useNavigate();
   return (
     <>
      <div className="cart_header">
@@ -35,7 +36,7 @@ function Emptywishlist() {
       <div className='empty_wishlist'>
       <h4>PLEASE LOG IN</h4>
       <p>Login to view items in your wishlist.</p>
-      <button className='btn btn-default'>LOGIN</button>
+      <button className='btn btn-default' onClick={()=>navigate("/addwishlistitems")}>LOGIN</button>
     </div>
     </>
     

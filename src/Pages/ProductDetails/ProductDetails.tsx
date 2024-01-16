@@ -88,11 +88,11 @@ function ProductDetails() {
             <p style={{ fontSize: "20px", color: "gray" }}>
               Typography Printed Pure Cotton Slim Fit T-shirt
             </p>
-            <div className="mb-3 price_details">
-              <span className="h5 mx-1" style={{ fontWeight: 700 }}>
+            <div className="mb-3 price_details" style={{marginLeft:0}}>
+              <span className="h5 mx-1" style={{ fontWeight: 700,color:"black" }}>
                 &#8377;552
               </span>
-              <span className="text-muted mx-1">
+              <span className="text-muted mx-1" style={{ fontWeight: 700}}>
                 {" "}
                 MRP &#8377;<del>758</del>
               </span>
@@ -100,7 +100,7 @@ function ProductDetails() {
                 className="h5 mx-1"
                 style={{
                   fontWeight: 700,
-                  color: "#f54e77",
+                  color: "#f58742",
                   textTransform: "uppercase",
                 }}
               >
@@ -128,15 +128,8 @@ function ProductDetails() {
                     autoComplete="off"
                   />
                   <label
-                    className="btn btn-outline-warning "
-                    htmlFor="primary-outlined-xs"
-                    style={{
-                      borderRadius: "50%",
-                      width: "50px",
-                      border: "1px solid",
-                      height: "50px",
-                      paddingTop: "12px",
-                    }}
+                    className="btn btn-outline-warning product_size_box"
+                    htmlFor="primary-outlined-xs"                   
                   >
                     XS
                   </label>
@@ -147,15 +140,8 @@ function ProductDetails() {
                     id="primary-outlined-s"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2"
-                    htmlFor="primary-outlined-s"
-                    style={{
-                      borderRadius: "50%",
-                      width: "50px",
-                      border: "1px solid",
-                      height: "50px",
-                      paddingTop: "12px",
-                    }}
+                    className="btn btn-outline-warning mx-2 product_size_box"
+                    htmlFor="primary-outlined-s"                    
                   >
                     S
                   </label>
@@ -166,15 +152,8 @@ function ProductDetails() {
                     id="primary-outlined-l"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2"
-                    htmlFor="primary-outlined-l"
-                    style={{
-                      borderRadius: "50%",
-                      width: "50px",
-                      border: "1px solid",
-                      height: "50px",
-                      paddingTop: "12px",
-                    }}
+                    className="btn btn-outline-warning mx-2 product_size_box"
+                    htmlFor="primary-outlined-l"                    
                   >
                     L
                   </label>
@@ -185,16 +164,8 @@ function ProductDetails() {
                     id="primary-outlined-xl"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2"
-                    htmlFor="primary-outlined-xl"
-                    style={{
-                      borderRadius: "50%",
-                      width: "50px",
-                      border: "1px solid",
-                      height: "50px",
-                      paddingTop: "12px",
-                    }}
-                  >
+                    className="btn btn-outline-warning mx-2 product_size_box"
+                    htmlFor="primary-outlined-xl">
                     XL
                   </label>
                   <input
@@ -204,16 +175,8 @@ function ProductDetails() {
                     id="primary-outlined-xxl"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2"
-                    htmlFor="primary-outlined-xxl"
-                    style={{
-                      borderRadius: "50%",
-                      width: "50px",
-                      border: "1px solid",
-                      height: "50px",
-                      paddingTop: "12px",
-                    }}
-                  >
+                    className="btn btn-outline-warning mx-2 product_size_box"
+                    htmlFor="primary-outlined-xxl">
                     XXL
                   </label>
                 </div>
