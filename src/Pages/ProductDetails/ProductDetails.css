@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: row;
 }
-.add_to_bag_btn{
+.add_to_bag_btn_product{
     display: flex;
     flex-direction: row;
     margin-right: 13px;
@@ -83,17 +83,17 @@
     height: 50px;
     align-items: center;    
 }
-.add_to_bag_btn:hover{
+.add_to_bag_btn_product:hover{
     margin-right: 13px;
     border: none;
     background-color: #f54e77;
     color: white;
    
 }
-.add_to_bag_btn:focus{   
+.add_to_bag_btn_product:focus{   
     background-color: #f54e77;   
 }
-.add_to_bag_btn>span{
+.add_to_bag_btn_product>span{
     background: 0;
 }
 .wishlist_btn{

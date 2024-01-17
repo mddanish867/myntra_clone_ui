@@ -360,7 +360,7 @@ function Checkout() {
                       type="text"
                       placeholder="Enter code shown in above image*"
                     ></input>
-                    <button className="Gapy_btn_payment">PAY NOW</button>
+                    <button className="Gapy_btn_payment" onClick={()=>(navigate("/orderconfirmation"))}>PAY NOW</button>
                   </div>
                 ) : (
                   ""

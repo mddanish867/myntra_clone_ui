@@ -132,7 +132,7 @@ function CartDetails() {
               <a href="#">
                 <img
                   className="cart_product_img"
-                  src="https://github.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/blob/main/Project%20Myntra%20Clone/images/categories/1.jpg?raw=true"
+                  src="https://rukminim2.flixcart.com/image/300/300/ku2zjww0/sweatshirt/f/k/s/xl-30689-wildcraft-original-imag7a3fyk8cy6fr.jpeg?q=70"
                   alt="no image"
                 ></img>
               </a>

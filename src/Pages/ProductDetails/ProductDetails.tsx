@@ -176,13 +176,13 @@ function ProductDetails() {
               </div>
             </div>
             <div className="product_buy_wish_btn">
-              <a href="#" className="btn btn-default add_to_bag_btn">
+              <a href="#" className="btn btn-default1 add_to_bag_btn_product">
                 <span className="material-symbols-outlined mx-1">
                   shopping_bag
                 </span>
                 ADD TO BAG
               </a>
-              <a href="#" className="btn btn-default wishlist_btn">
+              <a href="#" className="btn btn-default1 wishlist_btn">
                 <span className="material-symbols-outlined mx-1">favorite</span>
                 WISHLIST
               </a>

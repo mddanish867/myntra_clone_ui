@@ -13,6 +13,9 @@ import AddressVerification from "./Pages/Addresses/AddressVerification";
 import CustomePopUps from "./Pages/Popups/CustomePopUps";
 import Checkout from "./Pages/Payment/Checkout";
 import AddWishlistItems from "./Pages/Wishlist/AddWishlistItems";
+import OrderConfirmation from "./Pages/Order/OrderConfirmation";
+import MyOrder from "./Pages/MyOrders/MyOrder";
+import Account from "./Pages/Account/Account";
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
           <Route path="addressverification" element={<AddressVerification/>} />
           <Route path="checkout" element={<Checkout/>} />
           <Route path="addwishlistitems" element={<AddWishlistItems/>} />
+          <Route path="orderconfirmation" element={<OrderConfirmation/>} />
+          <Route path="myorder" element={<MyOrder/>} />
+          <Route path="account" element={<Account/>} />
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>
