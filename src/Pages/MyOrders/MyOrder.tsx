@@ -24,7 +24,7 @@ function MyOrder() {
 
           <div className="order_return">
             <span>ORDERS</span>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/myorder" style={{ textDecoration: "none", color: "#14cda8",fontWeight:700}}>
               Orders & Returns
             </Link>
           </div>

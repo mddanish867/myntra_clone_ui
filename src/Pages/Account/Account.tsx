@@ -25,7 +25,7 @@ function Account() {
 
           <div className="order_return">
             <span>ORDERS</span>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/myorder" style={{ textDecoration: "none", color: "black" }}>
               Orders & Returns
             </Link>
           </div>

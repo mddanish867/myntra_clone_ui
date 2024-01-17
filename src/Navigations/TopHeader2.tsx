@@ -60,7 +60,7 @@ function TopHeader2() {
                 <Link to="/productdetails" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Wishlist
                 </Link>
-                <Link to="/myorder" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to="/account" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Gift Card
                 </Link>
                 <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
