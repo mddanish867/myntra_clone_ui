@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './OrderConfirmation.css';
 
 function OrderConfirmation() {
+  const navigate = useNavigate();
   return (
     <>
     <div className="cart_header">
@@ -47,7 +48,9 @@ function OrderConfirmation() {
           <span>Vill-Zameen Budhan, Post-Chiraiyakot, District-Mau, UP - 276129</span>
           <img src="https://constant.myntassets.com/checkout/assets/img/delhiveryPerson_17-03-2021.png" alt=''/>
         </div>
-        <button className='btn btn-default'>ORDER DETAILS
+        <button className='btn btn-default'
+        onClick={()=>navigate("/myorderdetails")}
+        >ORDER DETAILS
         <span className="material-symbols-outlined">
 navigate_next
 </span>
@@ -96,7 +99,7 @@ navigate_next
 
       <div className='cont_shopping'>
   <button className='btn_continue'>CONTINUE SHOPPING</button>
-  <button className='btn_view_order'>VIEW ORDER</button>
+  <button className='btn_view_order' onClick={()=>navigate("/myorder")}>VIEW ORDER</button>
 
       </div>
       </div>

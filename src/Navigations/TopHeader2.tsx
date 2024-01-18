@@ -16,8 +16,8 @@ function TopHeader2() {
         </Link>
       </div>
       <nav className="nav_bar">
-        <a href="#">Men</a>
-        <a href="#">Women</a>
+        <Link to="/catalog">Men</Link>
+        <Link to="/productdetails">Women</Link>
         <a href="#">Kids</a>
         <a href="#">Home & Living</a>
         <a href="#">Beauty</a>
@@ -54,10 +54,10 @@ function TopHeader2() {
               </button>
               <hr style={{ borderColor: "#cccc" }} />
               <div className="profile_lnk">
-                <Link to="/catalog" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to="/myorder" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Orders
                 </Link>
-                <Link to="/productdetails" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to="/wishlist" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Wishlist
                 </Link>
                 <Link to="/account" style={{ marginTop: "-16px", fontSize: "14px" }}>

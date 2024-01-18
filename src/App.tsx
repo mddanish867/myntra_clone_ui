@@ -14,12 +14,13 @@ import CustomePopUps from "./Pages/Popups/CustomePopUps";
 import Checkout from "./Pages/Payment/Checkout";
 import AddWishlistItems from "./Pages/Wishlist/AddWishlistItems";
 import OrderConfirmation from "./Pages/Order/OrderConfirmation";
-import MyOrder from "./Pages/MyOrders/MyOrder";
+import MyOrder from "./Pages/Order/MyOrders/MyOrder";
 import Account from "./Pages/Account/Account";
-import MyOrderDetails from "./Pages/MyOrders/MyOrderDetails";
+import MyOrderDetails from "./Pages/Order/MyOrders/MyOrderDetails";
 import MyProfile from "./Pages/Profile/MyProfile";
 import EditMyProfile from "./Pages/Profile/EditMyProfile";
 import Address from "./Pages/Account/Address";
+import CancelOrder from "./Pages/Order/MyOrders/CancelOrder";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="myprofile" element={<MyProfile/>} />
           <Route path="editmyprofile" element={<EditMyProfile/>} />
           <Route path="editmyprofile" element={<Address/>} />
+          <Route path="cancelorder" element={<CancelOrder/>} />
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>
