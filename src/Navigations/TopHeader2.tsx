@@ -106,6 +106,8 @@ function TopHeader2() {
         <div className="action_container_bag">
           <span className="material-symbols-outlined action_icon" onClick={()=>navigate("/cartdetails")}>
             shopping_bag
+            <sup style={{color:"rgb(249, 47, 95)",fontWeight:700}}>3</sup>
+
           </span>
           <span onClick={()=>navigate("/emptycart")} className="action_name">bag</span>
         </div>

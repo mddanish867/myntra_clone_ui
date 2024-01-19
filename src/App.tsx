@@ -21,6 +21,7 @@ import MyProfile from "./Pages/Profile/MyProfile";
 import EditMyProfile from "./Pages/Profile/EditMyProfile";
 import Address from "./Pages/Account/Address";
 import CancelOrder from "./Pages/Order/MyOrders/CancelOrder";
+import CancelOrderConfirmation from "./Pages/Order/MyOrders/CancelOrderConfirmation";
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
           <Route path="editmyprofile" element={<EditMyProfile/>} />
           <Route path="editmyprofile" element={<Address/>} />
           <Route path="cancelorder" element={<CancelOrder/>} />
+          <Route path="cancelorderconfirmation" element={<CancelOrderConfirmation/>} />
+
           <Route path="*" element={<Notfoun />} />
         </Routes>
       </BrowserRouter>
