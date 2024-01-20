@@ -92,7 +92,7 @@ function TopHeader2() {
                   Saved Addresses                   
                 </a>
                 <hr style={{ borderColor: "#ccc",marginTop:"-5px" }} />
-                <Link to="/myprofile" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to="/editmyprofile" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Edit Profile                   
                 </Link>
                 <Link to="/" style={{ marginTop: "-16px", fontSize: "14px" }}>

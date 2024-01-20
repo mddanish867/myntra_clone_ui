@@ -25,6 +25,8 @@
     width: 270px;
     margin-top: 25px;
     border-radius: 3px;
+    padding-left: 40px;
+    padding-top: 13px;
 }
 .empty_wishlist > button:hover{
     border: 1px solid #2b43f5;

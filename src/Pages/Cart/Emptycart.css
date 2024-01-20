@@ -18,13 +18,16 @@
     font-size: 14px;
     color: gray;
 }
-.empty_cart > button{
+.empty_cart>button{
     border: 1px solid #f54e77;
     border-radius: 2px;
     color: #f54e77;
     font-weight: 700;
     font-size: 14px;
     height: 45px;
+    padding-top: 11px;
+    width: 230px;
+    padding-left: 19px;
 }
 .empty_cart > button:hover{
     border: 1px solid #f54e77;
@@ -40,42 +43,38 @@
     font-weight: 700;
     font-size: 14px;
 }
-.cart_header {
+.emptycart_header {
     height: 78px;
     border: 1ps solid #ccc;
 }
-.logo_container {
+.emptycart_logo_container {
     margin-left: 51px;
     margin-top: 4px;
 }
-.myntra_home {
+.emptycart_myntra_home {
     height: 40px;
     margin-top: 14px;
 }
-.cart_address_stepper {
+.emptycart_address_stepper {
     display: flex;
     flex-direction: row;
     font-size: 11px;
     margin-left: 485px;
     margin-top: -27px;
 }
-.car_bag>span {
-    border-bottom: 2px solid #04966a;
-    color: #04966a;
-}
-.cart_auth_sec {
+.emptycart_auth_sec {
     display: flex;
     flex-direction: row;
     margin-left: 1057px;
     margin-top: -25px;
 }
-.cart_auth_sec>span {
+.emptycart_auth_sec>span {
     font-size: 11px;
     margin-top: 7px;
     margin-left: 4px;
     font-weight: 500;
 }
-.cart_sec_image {
+.emptycart_sec_image {
     height: 28px;
 
 }

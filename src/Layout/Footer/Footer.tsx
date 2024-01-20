@@ -37,11 +37,11 @@ function Layout() {
       <div className='footer_column'>
         <div className='footer_column_image'>
          <img className='authentic_image' src='https://previews.123rf.com/images/arcady31/arcady311607/arcady31160700053/60391485-100-authentic-rubber-stamp.jpg'></img>
-        <p className='authentic_text'><b>100% ORIGINAL</b> guarantee for <br/><span style={{color:"gray"}}>all products at myntra.com</span> </p>
+        <p className='authentic_text'><b style={{background:0}}>100% ORIGINAL</b> guarantee for <br/><span style={{color:"gray",background:0}}>all products at myntra.com</span> </p>
         </div>
         <div className='footer_column_image'>
          <img className='authentic_image_return' src='https://cdn.shopify.com/s/files/1/0299/8563/6396/files/14dayreturns_240x240.jpg?v=1612703450'></img>
-        <p className='authentic_return_text'><b>Return within 14days</b> of <br/><span style={{color:"gray"}}>receiving your order</span> </p>
+        <p className='authentic_return_text'><b style={{background:0}}>Return within 14days</b> of <br/><span style={{color:"gray",background:0}}>receiving your order</span> </p>
         </div>
       </div> 
     </div>

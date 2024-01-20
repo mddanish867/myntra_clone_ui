@@ -7,7 +7,6 @@ function CancelOrder() {
   const navigate = useNavigate();
   return (
     <>
-      
       <div className="_my_header">
         <TopHeader2 />
       </div>
@@ -57,13 +56,13 @@ function CancelOrder() {
 
           <div className="cancel_order_account">
             <span>ACCOUNT</span>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/myprofile" style={{ textDecoration: "none", color: "black" }}>
               Profile
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>
               Saved Cards
             </Link>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/address" style={{ textDecoration: "none", color: "black" }}>
               Addresses
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>

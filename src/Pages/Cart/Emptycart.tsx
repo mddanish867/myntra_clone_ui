@@ -4,28 +4,28 @@ import './Emptycart.css';
 function Emptycart() {
   return (
     <>
-    <div className="cart_header">
-        <div className="logo_container">
+    <div className="emptycart_header">
+        <div className="emptycart_logo_container">
           <Link to="/">
             <img
-              className="myntra_home"
+              className="emptycart_myntra_home"
               src="https://raw.githubusercontent.com/KG-Coding-with-Prashant-Sir/CSS_Complete_YouTube/main/Project%20Myntra%20Clone/images/myntra_logo.webp"
               alt="not found"
             ></img>
           </Link>
         </div>
-        <div className="cart_address_stepper">
-          <div className="car_bag">
+        <div className="emptycart_address_stepper">
+          <div className="emptycart_bag">
             <span>B A G</span>
           </div>
           <div className="cart_dot mx-1">---------- </div>
-          <div className="cart_address mx-1"> A D D R E S S</div>
+          <div className="emptycart_address mx-1"> A D D R E S S</div>
           <div className="cart_dot mx-1">---------- </div>
-          <div className="cart_paymet mx-1"> P A Y M E N T</div>
+          <div className="emptycart_paymet mx-1"> P A Y M E N T</div>
         </div>
-        <div className="cart_auth_sec">
+        <div className="emptycart_auth_sec">
           <img
-            className="cart_sec_image"
+            className="emptycart_sec_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
           ></img>
           <span>1 0 0 % S E C U R E</span>
