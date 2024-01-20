@@ -211,6 +211,7 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 65px;
+    margin-bottom: 10px;
 }
 .cancel_reason_list>input:hover{
     outline: none;

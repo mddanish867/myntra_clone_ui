@@ -44,10 +44,10 @@ export default function Catalog() {
           </nav>
         </div>
       </div>
-      <div className="total_product_count" style={{ marginTop: "13px" }}>
-        <span className="my-2" style={{ fontSize: "15px", marginLeft: "27px" }}>
-          <b>Jeans for Mens</b> - 13283
-        </span>
+      <div className="total_product_count" style={{ marginTop: "13px",display:"flex",flexDirection:"row" }}>
+        <p className="my-2" style={{ fontSize: "15px", marginLeft: "27px" }}>
+          <span style={{fontWeight:700}}>Jeans for Mens</span> - 13283
+        </p>
       </div>
       <div className="container my-4">
         <div className="row">
@@ -795,9 +795,7 @@ export default function Catalog() {
                 style={{ width: "285px", marginLeft: "660px" }}
               >
                 <select className="mr-2 form-control">
-                  <option>
-                    sort by: <b style={{ fontWeight: 700 }}>Recommended</b>
-                  </option>
+                  <option>sort by: Recommended</option>
                   <option>Trending</option>
                   <option>Most Popular</option>
                   <option>Cheapest</option>
