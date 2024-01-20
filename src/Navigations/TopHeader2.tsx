@@ -52,7 +52,7 @@ function TopHeader2() {
               <button className="btn btn-outline-secondary login_btn" onClick={()=>navigate("/login")}>
                 Login/Signup
               </button>
-              <hr style={{ borderColor: "#cccc" }} />
+              <hr style={{ borderColor: "#cccc",marginTop:"-5px" }} />
               <div className="profile_lnk">
                 <Link to="/myorder" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Orders
@@ -71,7 +71,7 @@ function TopHeader2() {
                   <sup style={{ color: "#ff3f6c", fontWeight: "600" }}>New</sup>
                 </a>
               </div>
-              <hr style={{ borderColor: "#cccc" }} />
+              <hr style={{ borderColor: "#ccc",marginTop:"-5px" }} />
               <div className="profile_lnk">
                 <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Myntra Credit
@@ -91,6 +91,13 @@ function TopHeader2() {
                 <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Saved Addresses                   
                 </a>
+                <hr style={{ borderColor: "#ccc",marginTop:"-5px" }} />
+                <Link to="/myprofile" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                  Edit Profile                   
+                </Link>
+                <Link to="/" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                  Logout                   
+                </Link>
               </div>
             </div>
             {/* </div> */}
