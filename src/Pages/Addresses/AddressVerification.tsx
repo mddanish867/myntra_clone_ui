@@ -5,17 +5,7 @@ import CustomePopUps from '../Popups/CustomePopUps';
 
 
 function AddressVerification() {
-  const navigate = useNavigate();
-    const [showModelPop, setShowModel] = useState(false);
-    const handleShowModel = ()=>{
-        if(showModelPop === false)
-        {
-          setShowModel(true);
-        }
-        if(showModelPop === true){
-          setShowModel(false);
-        }
-      }
+  const navigate = useNavigate(); 
 
       const handlePayment = () =>{
         navigate("/checkout");
@@ -53,14 +43,10 @@ function AddressVerification() {
     <div className="cart_address_summry">
       <div className="cart_deatils_desc_address">
         <div className="select_delivery_address">
-          <span style={{ marginLeft: "15px" }}>
+          <span style={{ marginLeft: "15px",fontSize:"17px" }}>
             Select Delivery Address
           </span>
-
-          <button className="btn default delivery_address_btn" onClick={()=> handleShowModel()}>
-            ADD NEW ADDRESS
-          </button>
-          {showModelPop && <CustomePopUps/>}
+          <CustomePopUps/>          
         </div>
 
 
@@ -70,9 +56,9 @@ function AddressVerification() {
         <label htmlFor="html"><b>Md Danish Akhtar</b></label>
             </div>
         
-          <p style={{marginTop:"15px",fontSize:"14px"}}>Vill-Zameen Budhan Post-Chiraiyakot, ChiraiyaKot <br/> Madarsa, Uttar Pradesh - 276129</p>
-          <p style={{fontSize:"14px"}}>Mobile: <b>5985857756</b></p>
-          <p><b style={{fontSize:"14px"}}>.</b> Pay on Delivery avaiable</p>
+          <p style={{marginTop:"15px",fontSize:"13px",color:"#424553"}}>Vill-Zameen Budhan Post-Chiraiyakot, ChiraiyaKot <br/> Madarsa, Uttar Pradesh - 276129</p>
+          <p style={{fontSize:"13px",color:"#424553"}}>Mobile: <b>5985857756</b></p>
+          <p style={{fontSize:"13px",color:"#424553",display:"flex",flexDirection:"row"}}><b style={{fontSize:"20px",color:"#424553",marginTop:"-10px"}}>.</b> <span style={{marginLeft:"5px"}}>Pay on Delivery avaiable</span></p>
           <div className='address_button'>
             <button className='btn btn-remove '>REMOVE</button>
             <button className='btn btn_default_edit'>EDIT</button>
@@ -81,13 +67,13 @@ function AddressVerification() {
         </div>
 
         <div className="see_exis_item">
-          <Link to="/login" className="btn default add_new_address">
+          <Link to="/customepopup" className="btn default add_new_address">
             + Add New Address
           </Link>
         </div>
       </div>
 
-      <div className="cart_total_summary">
+      <div className="address_cart_total_summary">
         <div className="delivery_estimate">
             <p className='delivery_heading'>DELIVERY ESTIMATES</p>
          <div className='product_image'>

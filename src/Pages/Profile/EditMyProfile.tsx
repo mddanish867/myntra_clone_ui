@@ -61,10 +61,16 @@ function EditMyProfile() {
             >
               Profile
             </Link>
-            <Link to="/myprofile" style={{ textDecoration: "none", color: "black" }}>
+            <Link
+              to="/myprofile"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               Saved Cards
             </Link>
-            <Link to="/address" style={{ textDecoration: "none", color: "black" }}>
+            <Link
+              to="/address"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               Addresses
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>
@@ -99,7 +105,8 @@ function EditMyProfile() {
             type="email"
             placeholder="Email"
             value={"Mddanishakhtar@gmail.com"}
-          />
+          />         
+
           <input type="dob" placeholder="DOB" value={"10/08/1993"} />
           <span
             className="alternate_number"

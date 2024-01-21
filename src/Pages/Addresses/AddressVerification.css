@@ -51,16 +51,13 @@
 .cart_address_summry {
     display: flex;
     flex-direction: row;
-    align-content: space-evenly;
-}
+    border-top: 1px solid #eee;}
 
 .select_delivery_address {
     display: flex;
     flex-direction: row;
-    margin-left: 151px;
-    margin-top: 26px;
-    border: 1px solid #eee;
-    width: 593px;
+    margin-left: 130px;
+    width: 636px;
     height: 71px;
     align-items: center;
     font-size: 13px;
@@ -91,17 +88,18 @@
 .cart_deatils_desc_address {
     flex-grow: .6%;
 }
-.cart_total_summary{
+.address_cart_total_summary{
     border: 1px solid #eee;
-    margin-top: -3px;
     margin-left: 22px;
     width: 600px;
+    border-top: none;
 }
 
 
 .product_summary_cart{
     display: flex;
     flex-direction: column;
+    margin-top: -25px;
 }
 .price_details{
     font-size: 12px;
@@ -175,12 +173,18 @@
 
 }
 .cart_product_address{
+    width: 636px;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-left: 152px;
+    margin-left: 142px;
     border: 1px solid #eee;
     border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 1px;
+}
+.cart_product_address:hover{
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .cart_product_address > p{    
     margin-left: 35px;
@@ -190,11 +194,17 @@
     flex-direction: row;
     margin-top: 20px;
     margin-left: 20px;
+    font-size: 13px;
+}
+.selected_address>p{
+    font-size: 12px;
+    color: gray;
 }
 .address_button{
     display: flex;
     flex-direction: row;
-    margin-left: 25px;
+    margin-left: 35px;
+    margin-bottom: 15px;
 }
 .btn-remove{
     border: 1px solid black;
@@ -232,17 +242,23 @@
 
 
 .see_exis_item{
+    width: 636px;
     display: flex;
     flex-direction: row;
-    margin-left: 151px;
-    margin-top: 20px;
+    margin-left: 142px;
+    margin-top: 10px;
     border: 1px solid #eee;
-    width: 593px;
     height: 71px;
     align-items: center;
     font-size: 13px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 1px;
+
+}
+.see_exis_item:hover{
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .add_new_address{
     border: none;
@@ -285,10 +301,13 @@
     margin-bottom: 45px;
 }
 .product_image > p{
-    margin-top: 35px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 12px;
 }
+
 .product_image > img{
-    height: 90px;
+    height: 55px;
     margin-left: 20px;
 
 }
