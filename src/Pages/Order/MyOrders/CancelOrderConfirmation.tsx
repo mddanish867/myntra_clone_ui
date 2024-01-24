@@ -56,13 +56,13 @@ function CancelOrderConfirmation() {
 
           <div className="cancel_confirm_order_account">
             <span>ACCOUNT</span>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/myprofile" style={{ textDecoration: "none", color: "black" }}>
               Profile
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>
               Saved Cards
             </Link>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/address" style={{ textDecoration: "none", color: "black" }}>
               Addresses
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>
