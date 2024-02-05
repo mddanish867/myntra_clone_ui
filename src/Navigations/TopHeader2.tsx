@@ -18,12 +18,12 @@ function TopHeader2() {
       <nav className="nav_bar">
         <Link to="/catalog">Men</Link>
         <Link to="/productdetails">Women</Link>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">
+        <Link to='/catalog'>Kids</Link>
+        <Link to='/catalog'>Home & Living</Link>
+        <Link to='/catalog'>Beauty</Link>
+        <Link to='/catalog'>
           Studio <sup>New</sup>
-        </a>
+        </Link>
       </nav>
       <div className="search_bar">
         <span className="material-symbols-outlined search_icon">search</span>
@@ -63,34 +63,34 @@ function TopHeader2() {
                 <Link to="/account" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Gift Card
                 </Link>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Contact Us
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Myntra Insider
                   <sup style={{ color: "#ff3f6c", fontWeight: "600" }}>New</sup>
-                </a>
+                </Link>
               </div>
               <hr style={{ borderColor: "#ccc",marginTop:"-5px" }} />
               <div className="profile_lnk">
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Myntra Credit
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Coupons
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Saved Card
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Contact Us
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Saved VPAs                   
-                </a>
-                <a href="#" style={{ marginTop: "-16px", fontSize: "14px" }}>
+                </Link>
+                <Link to='' style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Saved Addresses                   
-                </a>
+                </Link>
                 <hr style={{ borderColor: "#ccc",marginTop:"-5px" }} />
                 <Link to="/editmyprofile" style={{ marginTop: "-16px", fontSize: "14px" }}>
                   Edit Profile                   

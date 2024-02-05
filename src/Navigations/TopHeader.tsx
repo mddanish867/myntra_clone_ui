@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./TopHeader.css";
 
 function TopHeader() {
@@ -17,14 +18,14 @@ function TopHeader() {
        {/* Left links  */}
         <ul className="navbar-nav me-auto ps-lg-0" style={{paddingLeft: "0.15rem"}}>
           <li className="nav-item">
-            <a className="nav-link" href="#">Regular link</a>
+            <Link className="nav-link" to=''>Regular link</Link>
           </li>
           {/* Navbar dropdown  */}
           <li className="nav-item dropdown dropdown-hover position-static">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            <Link className="nav-link dropdown-toggle" to='' id="navbarDropdown" role="button"
               data-mdb-toggle="dropdown" aria-expanded="false">
               Mega menu
-            </a>
+            </Link>
           {/* Dropdown menu  */}
             <div className="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style={{borderTopLeftRadius:"0",borderTopRightRadius:"0"}}>
   
@@ -32,38 +33,38 @@ function TopHeader() {
                 <div className="row my-4">
                   <div className="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div className="list-group list-group-flush">
-                      <a href="" className="list-group-item list-group-item-action">Lorem ipsum</a>
-                      <a href="" className="list-group-item list-group-item-action">Dolor sit</a>
-                      <a href="" className="list-group-item list-group-item-action">Amet consectetur</a>
-                      <a href="" className="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" className="list-group-item list-group-item-action">Adipisicing elit</a>
+                      <Link to='' className="list-group-item list-group-item-action">Lorem ipsum</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Dolor sit</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Amet consectetur</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Cras justo odio</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Adipisicing elit</Link>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div className="list-group list-group-flush">
-                      <a href="" className="list-group-item list-group-item-action">Explicabo voluptas</a>
-                      <a href="" className="list-group-item list-group-item-action">Perspiciatis quo</a>
-                      <a href="" className="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" className="list-group-item list-group-item-action">Laudantium maiores</a>
-                      <a href="" className="list-group-item list-group-item-action">Provident dolor</a>
+                      <Link to='' className="list-group-item list-group-item-action">Explicabo voluptas</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Perspiciatis quo</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Cras justo odio</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Laudantium maiores</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Provident dolor</Link>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-3 mb-3 mb-md-0">
                     <div className="list-group list-group-flush">
-                      <a href="" className="list-group-item list-group-item-action">Iste quaerato</a>
-                      <a href="" className="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" className="list-group-item list-group-item-action">Est iure</a>
-                      <a href="" className="list-group-item list-group-item-action">Praesentium</a>
-                      <a href="" className="list-group-item list-group-item-action">Laboriosam</a>
+                      <Link to='' className="list-group-item list-group-item-action">Iste quaerato</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Cras justo odio</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Est iure</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Praesentium</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Laboriosam</Link>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-3">
                     <div className="list-group list-group-flush">
-                      <a href="" className="list-group-item list-group-item-action">Cras justo odio</a>
-                      <a href="" className="list-group-item list-group-item-action">Saepe</a>
-                      <a href="" className="list-group-item list-group-item-action">Vel alias</a>
-                      <a href="" className="list-group-item list-group-item-action">Sunt doloribus</a>
-                      <a href="" className="list-group-item list-group-item-action">Cum dolores</a>
+                      <Link to='' className="list-group-item list-group-item-action">Cras justo odio</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Saepe</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Vel alias</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Sunt doloribus</Link>
+                      <Link to='' className="list-group-item list-group-item-action">Cum dolores</Link>
                     </div>
                   </div>
                 </div>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Footer from "../../Layout/Footer/Footer";
 import TopHeader2 from "../../Navigations/TopHeader2";
 import "./Catalog.css";
+import { Link } from "react-router-dom";
 
 export default function Catalog() {
   const [brandflag, setbrandflag] = useState(false);
@@ -29,17 +30,17 @@ export default function Catalog() {
                 marginTop: "-6px",
               }}
             >
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 Home
-              </a>
+              </Link>
               <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 Library
-              </a>
+              </Link>
               <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 <u>Data</u>
-              </a>
+              </Link>
             </p>
           </nav>
         </div>
@@ -58,8 +59,8 @@ export default function Catalog() {
                   className="card-header"
                   style={{ marginLeft: "9px", marginTop: "-5px" }}
                 >
-                  <a
-                    href="#"
+                  <Link
+                    to=''
                     data-toggle="collapse"
                     data-target="#collapse_1"
                     aria-expanded="true"
@@ -73,7 +74,7 @@ export default function Catalog() {
                     <p className="title">
                       <b>FILTERS</b>
                     </p>
-                  </a>
+                  </Link>
                 </header>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
@@ -813,13 +814,14 @@ export default function Catalog() {
                     <span className="badge badge-danger"> NEW </span>
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/o/6/h/3xl-wl051-rose-unemode-original-imagsx53sv3drytm.jpeg?q=70"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -836,17 +838,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -856,7 +858,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -896,13 +898,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/w/y/o/m-flee18-navy-ewools-original-imagj6j87gauafru.jpeg?q=70&crop=false"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -919,17 +922,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -939,7 +942,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -979,13 +982,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/kyvvtzk0/jacket/t/t/e/xl-yes-kttpufferjacket102-kotty-original-imagbym5yvu9bpkt.jpeg?q=70&crop=false"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1002,17 +1006,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1022,7 +1026,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1062,13 +1066,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/k23m4cw0/thermal/w/g/f/l-mulf-lt-001-set-cm-dollar-ultra-original-imaezx74k7q8y4m6.jpeg?q=70&crop=false"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1085,17 +1090,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1105,7 +1110,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1145,13 +1150,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/u/x/n/s-wm17-ss01-tan-alan-jones-original-imaghhyjtv3hpywq.jpeg?q=70&crop=false"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1168,17 +1174,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1188,7 +1194,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1228,13 +1234,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/5/1/h/xl-wmn-hdy-blk-iamdifrnt-sollobell-original-imagqqcpf4uzfy6h.jpeg?q=70"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1251,17 +1258,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1271,7 +1278,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1311,13 +1318,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/o/k/y/xxl-dbsg00001051-deebaco-original-imagv3uhz5bdnnm5.jpeg?q=70"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1334,17 +1342,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1354,7 +1362,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1394,13 +1402,14 @@ export default function Catalog() {
                   <div className="img-wrap">
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/g/u/t/xl-dbsg00001022-deebaco-original-imagv3ugfhe4afgh.jpeg?q=70"
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
                   <figcaption className="info-wrap">
-                    <a
+                    <Link
                       className="btn-overlay"
-                      href="#"
+                      to=''
                       style={{
                         textDecoration: "none",
                         fontSize: "12px",
@@ -1417,17 +1426,17 @@ export default function Catalog() {
                         favorite
                       </span>
                       <span style={{ marginTop: "8px" }}>Wishlist</span>
-                    </a>
+                    </Link>
                     <div className="fix-height">
-                      <a
-                        href="#"
+                      <Link
+                        to=''
                         className="title"
                         style={{ textDecoration: "none" }}
                       >
                         <b>Roadster</b>
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to=''
                         className="title"
                         style={{
                           textDecoration: "none",
@@ -1437,7 +1446,7 @@ export default function Catalog() {
                         }}
                       >
                         Mens slim Tapered Slim Jeans
-                      </a>
+                      </Link>
                       <div className="price-wrap mt-2">
                         <span
                           className="price"
@@ -1473,29 +1482,29 @@ export default function Catalog() {
             <nav className="mt-4" aria-label="Page navigation sample">
               <ul className="pagination">
                 <li className="page-item disabled">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" to=''>
                     Previous
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item active">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" to=''>
                     1
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" to=''>
                     2
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" to=''>
                     3
-                  </a>
+                  </Link>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <Link className="page-link" to=''>
                     Next
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

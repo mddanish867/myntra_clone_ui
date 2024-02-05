@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 function Layout() {
   return (
@@ -5,33 +6,33 @@ function Layout() {
     <div className='footer_container'>
       <div className='footer_column'>
         <h3>ONLINE SHOPPING</h3>
-        <a href="#">Men</a>        
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">GiftCard </a>
-        <a href="#">Myntra Insider </a>
+        <Link to='/men'>Men</Link>        
+        <Link to='/men'>Women</Link>
+        <Link to='/men'>Kids</Link>
+        <Link to='/men'>Home & Living</Link>
+        <Link to='/men'>Beauty</Link>
+        <Link to='/men'>GiftCard </Link>
+        <Link to='/men'>Myntra Insider </Link>
       </div>  
       <div className='footer_column'>
         <h3>CUSTOMER POLICIES</h3>
-        <a href="#">Contact Us</a>        
-        <a href="#">FAQ</a>
-        <a href="#">T&C</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Track Orders</a>
-        <a href="#">Shipping  </a>
-        <a href="#">Cancellation </a>
-        <a href="#">Return </a>
-        <a href="#">Privacy policy </a>
-        <a href="#">Grievence Offer </a>
+        <Link to='/men'>Contact Us</Link>        
+        <Link to='/men'>FAQ</Link>
+        <Link to='/men'>T&C</Link>
+        <Link to='/men'>Terms of Use</Link>
+        <Link to='/men'>Track Orders</Link>
+        <Link to='/men'>Shipping  </Link>
+        <Link to='/men'>Cancellation </Link>
+        <Link to='/men'>Return </Link>
+        <Link to='/men'>Privacy policy </Link>
+        <Link to='/men'>Grievence Offer </Link>
 
       </div>
       <div className='footer_column'>
         <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
         <div className='download_link'>
-          <a href='#'><img className='download_link_google' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTITHfIWvY6HOgmvSwmFiPdBTTXP2cjOqbc2w&usqp=CAU'></img></a>
-          <a href='#'><img className='download_link_apple' src='https://e7.pngegg.com/pngimages/32/544/png-clipart-android-google-play-app-store-android-text-logo-thumbnail.png'></img></a>
+          <Link to='/apple'><img className='download_link_google' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTITHfIWvY6HOgmvSwmFiPdBTTXP2cjOqbc2w&usqp=CAU' alt=''></img></Link>
+          <Link to='/gplaystore'><img className='download_link_apple' src='https://e7.pngegg.com/pngimages/32/544/png-clipart-android-google-play-app-store-android-text-logo-thumbnail.png' alt=''></img></Link>
         </div>
       </div>   
       <div className='footer_column'>

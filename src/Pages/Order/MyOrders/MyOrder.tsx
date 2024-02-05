@@ -104,11 +104,11 @@ function MyOrder() {
                 <div className="arriving_order_stats">
                   <p>In Transit</p>
                   <span>Arriving by Sat-26 jan</span>
-                  <img src="https://myntraweb.blob.core.windows.net/selfserveui/assets/svg/mexpress-tag.svg" />
+                  <img src="https://myntraweb.blob.core.windows.net/selfserveui/assets/svg/mexpress-tag.svg" alt="" />
                 </div>
               </div>
               <div className="purchased_item_stats">
-                <img src="https://assets.myntassets.com/f_webp,dpr_1,q_10,w_200,c_limit,fl_progressive/assets/images/12816480/2020/12/8/9ba523c2-fe7f-44df-b0b6-f72621fe40a81607424596953-HERENOW-Men-Tshirts-1241607424595550-1.webp"></img>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1,q_10,w_200,c_limit,fl_progressive/assets/images/12816480/2020/12/8/9ba523c2-fe7f-44df-b0b6-f72621fe40a81607424596953-HERENOW-Men-Tshirts-1241607424595550-1.webp" alt=""></img>
                 <div className="purchased_item_size_name">
                   <h6>HERE&NOW</h6>
                   <span>Mens blue Round Neck t-shirts</span>
@@ -128,7 +128,7 @@ function MyOrder() {
                 </div>
               </div>
               <div className="purchased_item_stats">
-                <img src="https://assets.myntassets.com/f_webp,dpr_1,q_10,w_200,c_limit,fl_progressive/assets/images/12816480/2020/12/8/9ba523c2-fe7f-44df-b0b6-f72621fe40a81607424596953-HERENOW-Men-Tshirts-1241607424595550-1.webp"></img>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1,q_10,w_200,c_limit,fl_progressive/assets/images/12816480/2020/12/8/9ba523c2-fe7f-44df-b0b6-f72621fe40a81607424596953-HERENOW-Men-Tshirts-1241607424595550-1.webp" alt=""></img>
                 <div className="purchased_item_size_name">
                   <h6>HERE&NOW</h6>
                   <span>Mens blue Round Neck t-shirts</span>

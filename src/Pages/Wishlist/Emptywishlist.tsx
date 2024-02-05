@@ -28,6 +28,7 @@ function Emptywishlist() {
           <img
             className="wishlist_sec_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt=''
           ></img>
           <span>1 0 0 % S E C U R E</span>
         </div>

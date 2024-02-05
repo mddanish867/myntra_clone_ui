@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TopHeader2 from "../Navigations/TopHeader2";
 import "./Login.css";
 function Login() {
@@ -27,42 +28,42 @@ function Login() {
           />
           <span className="tems_of_use">
             By continuing, I agree to the
-            <a
+            <Link
               style={{
                 color: "#f54e77",
                 textDecoration: "none",
                 fontWeight: "700",
               }}
-              href="#"
+              to='/terms'
             >
               Terms & Use
-            </a>
+            </Link>
             &
-            <a
+            <Link
               style={{
                 color: "#f54e77",
                 textDecoration: "none",
                 fontWeight: "700",
               }}
-              href="#"
+              to='/privacy'
             >
               Privacy Policy
-            </a>
+            </Link>
           </span>
           <button className="login_button">Continue</button>
           <span className="login_help">
             Have trouble logging in?
-            <a
+            <Link
               style={{
                 color: "#f54e77",
                 textDecoration: "none",
                 fontWeight: "700",
               }}
-              href="#"
+              to='/help'
             >
               {" "}
               Get help
-            </a>
+            </Link>
           </span>
         </div>
       </div>

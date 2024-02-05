@@ -99,7 +99,7 @@ function CancelOrder() {
                 settings_backup_restore
               </span>
               <p>Eligible for cancellation</p>
-              <a href="#">VIEW POLICY</a>
+              <Link to=''>VIEW POLICY</Link>
             </div>
           </div>
           {/* Reason for cancel */}

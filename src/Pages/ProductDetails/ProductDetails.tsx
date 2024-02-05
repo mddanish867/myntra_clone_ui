@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../Layout/Footer/Footer";
 import TopHeader2 from "../../Navigations/TopHeader2";
 import "./ProductDetails.css";
@@ -12,17 +13,17 @@ function ProductDetails() {
         <div className="container py-4">
           <nav className="d-flex">
             <h6 className="mb-0">
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 Home
-              </a>
+              </Link>
               <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 Library
-              </a>
+              </Link>
               <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <a href="#" className="text-dark breadcrum_links">
+              <Link to='' className="text-dark breadcrum_links">
                 <u>Data</u>
-              </a>
+              </Link>
             </h6>
           </nav>
         </div>
@@ -31,48 +32,48 @@ function ProductDetails() {
       <div className="product_details">
         <div className="product_detail_image">
           <div className="category_items">
-            <a href="#">
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/3/b/g/s-hlsh013507-highlander-original-imagdrcubg5hygkf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/g/i/i/s-hlsh013507-highlander-original-imagdrcuxzpzgpbz.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/9/p/p/s-hlsh013507-highlander-original-imagdrcufrhgtytk.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/5/a/u/s-hlsh013507-highlander-original-imagdrcuz8mbcff8.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/v/s/t/s-hlsh013507-highlander-original-imagdrcu5grajbzj.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to=''>
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/7/b/o/s-hlsh013507-highlander-original-imagdrcu4jhtbuaf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </a>            
+            </Link>            
           </div>
         </div>
         <div className="product_details_link">
@@ -176,16 +177,16 @@ function ProductDetails() {
               </div>
             </div>
             <div className="product_buy_wish_btn">
-              <a href="#" className="btn btn-default1 add_to_bag_btn_product">
+              <Link to='' className="btn btn-default1 add_to_bag_btn_product">
                 <span className="material-symbols-outlined mx-1">
                   shopping_bag
                 </span>
                 ADD TO BAG
-              </a>
-              <a href="#" className="btn btn-default1 wishlist_btn">
+              </Link>
+              <Link to='' className="btn btn-default1 wishlist_btn">
                 <span className="material-symbols-outlined mx-1">favorite</span>
                 WISHLIST
-              </a>
+              </Link>
             </div>
             <hr />
             <div
@@ -205,9 +206,9 @@ function ProductDetails() {
                 type="text"
                 placeholder="Enter pincode"
               ></input>
-              <a className="pin_check_btn" href="#">
+              <Link className="pin_check_btn" to=''>
                 Check
-              </a>
+              </Link>
             </div>
             <div className="my-2" style={{ fontSize: "12px" }}>
               <span>
@@ -261,8 +262,8 @@ function ProductDetails() {
             </div>
 
             <div>
-              <a
-                href="#"
+              <Link
+                to=''
                 style={{
                   display: "flex",
                   fontSize: "14px",
@@ -272,7 +273,7 @@ function ProductDetails() {
                 }}
               >
                 View Eligible Products
-              </a>
+              </Link>
               <p
                 style={{
                   display: "flex",
@@ -286,8 +287,8 @@ function ProductDetails() {
               <ul style={{ marginLeft: "-14px", marginTop: "-10px" }}>
                 <li>EMI starting from Rs.26/month</li>
               </ul>
-              <a
-                href="#"
+              <Link
+                to=''
                 style={{
                   display: "flex",
                   fontSize: "14px",
@@ -298,7 +299,7 @@ function ProductDetails() {
                 }}
               >
                 View Plan
-              </a>
+              </Link>
             </div>
 
             <hr style={{ marginTop: "45px", marginBottom: "45px" }} />
@@ -416,8 +417,8 @@ function ProductDetails() {
                   <hr style={{ marginTop: "5px" }} />
                 </div>
               </div>
-              <a
-                href="#"
+              <Link
+                to=''
                 style={{
                   display: "flex",
                   fontSize: "12px",
@@ -428,7 +429,7 @@ function ProductDetails() {
                 }}
               >
                 See More
-              </a>
+              </Link>
             </div>
             <div>
               <div
@@ -452,7 +453,7 @@ function ProductDetails() {
                 Product Code: <b>25851010</b>
               </p>
               <p>
-                Seller: <a href="#"></a>FBAR
+                Seller: <Link to=''></Link>FBAR
               </p>
               <p>
                 <b>View Supplier Information</b>

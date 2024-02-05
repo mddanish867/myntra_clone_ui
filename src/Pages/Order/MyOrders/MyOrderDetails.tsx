@@ -75,6 +75,7 @@ function MyOrderDetails() {
           <div className="order_details_img_name_size">
             <img
               src="https://assets.myntassets.com/f_webp,dpr_1,q_10,w_200,c_limit,fl_progressive/assets/images/12816480/2020/12/8/9ba523c2-fe7f-44df-b0b6-f72621fe40a81607424596953-HERENOW-Men-Tshirts-1241607424595550-1.webp"
+              alt=""
               onClick={() => navigate("/productdetails")}
             />
             <h6>HERE&NOW</h6>

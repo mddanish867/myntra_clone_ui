@@ -77,6 +77,7 @@ function Checkout() {
           <img
             className="cart_sec_payment_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt=""
           ></img>
           <span>1 0 0 % S E C U R E</span>
         </div>
@@ -349,6 +350,7 @@ function Checkout() {
                       <img
                         style={{ height: "25px", marginLeft: "188px" }}
                         src="https://media.assettype.com/bloombergquint%2Fimport%2Fm4p4r1r_google-pay_625x300_12_April_19.jpg?auto=format%2Ccompress&w=576"
+                        alt=""
                       ></img>
                     </span>
                   </label>
@@ -439,9 +441,9 @@ function Checkout() {
             <div className="discount_on_mrp">
               <span>
                 Discount on MRP{" "}
-                <a href="#" className="know_more_mrp_discount">
+                <Link to='' className="know_more_mrp_discount">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "131px", color: "#04966a" }}>
                 -Rs. 237
@@ -462,9 +464,9 @@ function Checkout() {
             <div className="platform_fee">
               <span>
                 Plateform Fee{" "}
-                <a href="#" className="know_more_platform_fee">
+                <Link to='' className="know_more_platform_fee">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "166px", color: "#04966a" }}>
                 FREE
@@ -473,9 +475,9 @@ function Checkout() {
             <div className="shippin_fee">
               <span>
                 Shipping Fee{" "}
-                <a href="#" className="know_more_shipping_fee">
+                <Link to='' className="know_more_shipping_fee">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "140px", color: "#04966a" }}>
                 <del>Rs.79</del> FREE

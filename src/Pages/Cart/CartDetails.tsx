@@ -42,6 +42,7 @@ function CartDetails() {
           <img
             className="cart_sec_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt=""
           ></img>
           <span>1 0 0 % S E C U R E</span>
         </div>
@@ -129,13 +130,13 @@ function CartDetails() {
           <div className="cart_product_card">
             <div>
               {" "}
-              <a href="#">
+              <Link to=''>
                 <img
                   className="cart_product_img"
                   src="https://rukminim2.flixcart.com/image/300/300/ku2zjww0/sweatshirt/f/k/s/xl-30689-wildcraft-original-imag7a3fyk8cy6fr.jpeg?q=70"
                   alt="no image"
                 ></img>
-              </a>
+              </Link>
             </div>
             <div className="cart_product_details_priceing">
               <span style={{ fontSize: "14px", fontWeight: 700 }}>FBAR</span>
@@ -219,9 +220,9 @@ function CartDetails() {
             <div className="discount_on_mrp">
               <span>
                 Discount on MRP{" "}
-                <a href="#" className="know_more_mrp_discount">
+                <Link to='' className="know_more_mrp_discount">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "131px", color: "#04966a" }}>
                 -Rs. 237
@@ -242,9 +243,9 @@ function CartDetails() {
             <div className="platform_fee">
               <span>
                 Plateform Fee{" "}
-                <a href="#" className="know_more_platform_fee">
+                <Link to='' className="know_more_platform_fee">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "166px", color: "#04966a" }}>
                 FREE
@@ -253,9 +254,9 @@ function CartDetails() {
             <div className="shippin_fee">
               <span>
                 Shipping Fee{" "}
-                <a href="#" className="know_more_shipping_fee">
+                <Link to='' className="know_more_shipping_fee">
                   Know More
-                </a>
+                </Link>
               </span>
               <span style={{ marginLeft: "140px", color: "#04966a" }}>
                 <del>Rs.79</del> FREE
@@ -277,42 +278,43 @@ function CartDetails() {
 
       <div className="mayment_method">
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png"
+          alt=""
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png"
+          alt=""
         ></img>
-        <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png"></img>
+        <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png" alt=""
+        ></img>
       </div>
     </>
   );

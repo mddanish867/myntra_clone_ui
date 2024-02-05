@@ -27,13 +27,14 @@ function Emptycart() {
           <img
             className="emptycart_sec_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt=''
           ></img>
           <span>1 0 0 % S E C U R E</span>
         </div>
       </div>
 
       <div className='empty_cart'>
-      <img src='https://constant.myntassets.com/checkout/assets/img/empty-bag.png'></img>
+      <img src='https://constant.myntassets.com/checkout/assets/img/empty-bag.png' alt=''></img>
       <h4>Hey, its feels so light!</h4>
       <p>There is nothing in your cart. Let's add some items.</p>
       <button className='btn btn-default'>ADD ITEMS FROM WISHLIST</button>

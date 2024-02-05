@@ -28,6 +28,7 @@ function OrderConfirmation() {
           <img
             className="cart_sec_image"
             src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+            alt=''
           ></img>
           <span>1 0 0 % S E C U R E</span>
         </div>
@@ -67,7 +68,7 @@ navigate_next
           <span>Delivery (Cash/UPI)</span>
 
           <img className='paynow_image' src="https://constant.myntassets.com/checkout/assets/img/pay_at_convenience.png" alt=''/>
-        <a href='#'>See How</a>
+        <Link to=''>See How</Link>
         </div>
       </div>
 
@@ -106,42 +107,43 @@ navigate_next
       </div>    
       <div className="mayment_method" style={{marginTop:"70px"}}>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png"
+          alt=''
         ></img>
         <img
-          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png
-"
+          src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png"
+          alt=''
         ></img>
-        <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png"></img>
+        <img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png" 
+        alt=''></img>
       </div>  
     </>
   )

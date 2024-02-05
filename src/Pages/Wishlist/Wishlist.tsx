@@ -20,7 +20,7 @@ function Wishlist() {
           <div className="wishlist_product">
 
             <div className="wishlist_image_btn">
-              <img src="https://rukminim2.flixcart.com/image/300/300/kwfaj680/shirt/s/0/x/m-khsh000453-ketch-original-imag93v4tnfgunhv.jpeg?q=70"></img>
+              <img src="https://rukminim2.flixcart.com/image/300/300/kwfaj680/shirt/s/0/x/m-khsh000453-ketch-original-imag93v4tnfgunhv.jpeg?q=70" alt=""></img>
               <div className="wishlist_cancel_btn">
                 <span className="material-symbols-outlined">close</span>
               </div>
@@ -58,7 +58,7 @@ function Wishlist() {
           <div className="wishlist_product">
 
             <div className="wishlist_image_btn">
-              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/o/k/y/xxl-dbsg00001051-deebaco-original-imagv3uhz5bdnnm5.jpeg?q=70"></img>
+              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/o/k/y/xxl-dbsg00001051-deebaco-original-imagv3uhz5bdnnm5.jpeg?q=70" alt=""></img>
               <div className="wishlist_cancel_btn">
                 <span className="material-symbols-outlined">close</span>
               </div>
@@ -96,7 +96,7 @@ function Wishlist() {
           <div className="wishlist_product">
 
             <div className="wishlist_image_btn">
-              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/o/6/h/3xl-wl051-rose-unemode-original-imagsx53sv3drytm.jpeg?q=70"></img>
+              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/o/6/h/3xl-wl051-rose-unemode-original-imagsx53sv3drytm.jpeg?q=70" alt=""></img>
               <div className="wishlist_cancel_btn">
                 <span className="material-symbols-outlined">close</span>
               </div>
