@@ -353,7 +353,7 @@ function Categories() {
     },
     {
       id:36,
-      imgUrl:""
+      imgUrl:"https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/c61b51c7-67cb-4d02-9f50-3492d08c0bba1690787339256-Shop-By-Category_HP-4_36.jpg"
     }
   ]
   const modelworthy = medalWorthyBrands.map((elem: any) => (
@@ -381,6 +381,7 @@ function Categories() {
   ));
   return (
     <>
+      <div className="category_heading"> MEDAL WORTHY BRANDS TO BAG</div>
       <Carousel
         responsive={responsive}
         autoPlaySpeed={2000}

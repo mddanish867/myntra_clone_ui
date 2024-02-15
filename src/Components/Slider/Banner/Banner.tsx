@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
 import "./Banner.css";
 import { Carousel } from "react-bootstrap";
-// import banner from './banner.jpg';
 function Banner() {
   return (
     <div className="banner_container">

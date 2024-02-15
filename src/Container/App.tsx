@@ -1,5 +1,4 @@
 import "./App.css";
-import Homepage from "../Components/Home/Homepage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Notfoun from "../Components/Notfound/Notfoun";
 import Login from "../Components/Authentication/Login";
@@ -21,11 +20,12 @@ import EditMyProfile from "../Components/Profile/EditMyProfile";
 import Address from "../Components/Account/Address";
 import CancelOrder from "../Components/MyOrders/CancelOrder";
 import CancelOrderConfirmation from "../Components/MyOrders/CancelOrderConfirmation";
+import Homepage from "../Components/Home/Homepage";
 
 function App() { 
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div className="App">        
+      <BrowserRouter>          
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="login" element={<Login />} />
