@@ -1,18 +1,18 @@
 .category_heading_home_page {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 35px;
-    margin-top: 10px;
+    flex-direction: column;    
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 55px;
 }
 
 .shop_by_category {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: -35px;
+    margin-top: 45px;
     padding: 30px;
+    width: 100%;
 }
 
 .sale_item {
@@ -22,7 +22,6 @@
 .sale_item_brands_atag {
     width: 220px;
     height: 300px;
-    padding: 15px;
 }
 
 .category_heading {
@@ -37,5 +36,5 @@
 }
 
 .sale_item_category {
-    width: 185px;
+    width: 200px;
 }

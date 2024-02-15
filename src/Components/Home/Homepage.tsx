@@ -15,7 +15,7 @@ function Homepage() {
         <div className="banner_container">
           <Banner />
         </div>
-        {/* <div className="category_heading"> MEDAL WORTHY BRANDS TO BAG</div> */}
+        <div className="category_heading"> MEDAL WORTHY BRANDS TO BAG</div>
         <div className="category_item">
           <Categories/>
         </div>
