@@ -101,3 +101,7 @@ border-radius: 30px;
 .filter_text{
 background-color: #eef0f3;
 }
+.pagination{
+display: flex;
+align-content: center;
+}

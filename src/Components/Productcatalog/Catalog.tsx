@@ -1479,7 +1479,7 @@ export default function Catalog() {
               </div>
             </div>
 
-            <nav className="mt-4" aria-label="Page navigation sample">
+            <nav className="mt-4 pagination" aria-label="Page navigation sample">
               <ul className="pagination">
                 <li className="page-item disabled">
                   <Link className="page-link" to=''>

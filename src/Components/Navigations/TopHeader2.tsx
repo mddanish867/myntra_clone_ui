@@ -23,10 +23,16 @@ function TopHeader2() {
         </Link>
       </div>
       <nav className="nav_bar">
-        {mainCategories.map((elem: any) => (
-          <Link to="/catalog">{elem}</Link>
-        ))}
-        <Link to="/catalog">
+        {/* {mainCategories.map((elem: any,index:number) => (
+                    
+          <Link to={`/${elem}`} key={index}>{elem}</Link> 
+        ))} */}
+        <Link to="/men"> Men  </Link>
+        <Link to="/women"> Women  </Link>
+        <Link to="/kids"> Kids  </Link>
+        <Link to="/homeliving"> Home & Living  </Link>
+        <Link to="/catalog"> Beauty  </Link>
+        <Link to="/">
           Studio <sup>New</sup>
         </Link>
       </nav>

@@ -21,6 +21,11 @@ import Address from "../Components/Account/Address";
 import CancelOrder from "../Components/MyOrders/CancelOrder";
 import CancelOrderConfirmation from "../Components/MyOrders/CancelOrderConfirmation";
 import Homepage from "../Components/Home/Homepage";
+import Men from "../Components/Shop/Men";
+import Women from "../Components/Shop/Women";
+import Kids from "../Components/Shop/Kids";
+import HomeLiving from "../Components/Shop/HomeLiving";
+import Beauty from "../Components/Shop/Beauty";
 
 function App() { 
   return (
@@ -47,6 +52,11 @@ function App() {
           <Route path="address" element={<Address/>} />
           <Route path="cancelorder" element={<CancelOrder/>} />
           <Route path="cancelorderconfirmation" element={<CancelOrderConfirmation/>} />
+          <Route path="men" element={<Men/>} />
+          <Route path="women" element={<Women/>} />
+          <Route path="kids" element={<Kids/>} />
+          <Route path="homeliving" element={<HomeLiving/>} />
+          <Route path="beauty" element={<Beauty/>} />
 
           <Route path="*" element={<Notfoun />} />
         </Routes>

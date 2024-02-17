@@ -356,8 +356,8 @@ function Categories() {
       imgUrl:"https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/c61b51c7-67cb-4d02-9f50-3492d08c0bba1690787339256-Shop-By-Category_HP-4_36.jpg"
     }
   ]
-  const modelworthy = medalWorthyBrands.map((elem: any) => (
-    <div className="shop_by_category">
+  const modelworthy = medalWorthyBrands.map((elem: any, index:number) => (
+    <div className="shop_by_category" key={index}>
       <Link to="">
         <img
           className="sale_item_brands_atag"
@@ -368,8 +368,8 @@ function Categories() {
     </div>
   ));
 
-  const grandGlobal = grandGlobBrands.map((elem: any) => (
-    <div className="shop_by_category">
+  const grandGlobal = grandGlobBrands.map((elem: any, index:number) => (
+    <div className="shop_by_category" key={index}>
       <Link to="">
         <img
           className="sale_item_brands_atag"
@@ -412,10 +412,10 @@ function Categories() {
       >
         {grandGlobal}
       </Carousel>
-      <div className="category_heading_home_page">SHOP BY CATEGORY</div>
+      <div className="category_heading">SHOP BY CATEGORY</div>
       <div className="shop_by_category">
-      {shopByCategory.map((elem:any)=>(
-          <Link to="">
+      {shopByCategory.map((elem:any,index:number)=>(
+          <Link to="" key={index}>
           <img
             className="sale_item_category"
             src={elem.imgUrl}

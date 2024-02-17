@@ -8,12 +8,13 @@
 }
 
 .myntra_home {
-    height: 45px;
+    height: 66px;
+    margin-top: 4px;
 }
 
 .logo_container {
     margin-left: 46px;
-    margin-top: 4px;
+    margin-top: 0px;
 }
 
 .action_bar {
