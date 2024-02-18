@@ -27,10 +27,10 @@ import Kids from "../Components/Shop/Kids";
 import HomeLiving from "../Components/Shop/HomeLiving";
 import Beauty from "../Components/Shop/Beauty";
 
-function App() { 
+function App() {
   return (
-    <div className="App">        
-      <BrowserRouter>          
+    <div className="App">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="login" element={<Login />} />
@@ -40,23 +40,26 @@ function App() {
           <Route path="emptycart" element={<Emptycart />} />
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="emptywishlist" element={<Emptywishlist />} />
-          <Route path="addressverification" element={<AddressVerification/>} />
-          <Route path="checkout" element={<Checkout/>} />
-          <Route path="addwishlistitems" element={<AddWishlistItems/>} />
-          <Route path="orderconfirmation" element={<OrderConfirmation/>} />
-          <Route path="myorder" element={<MyOrder/>} />
-          <Route path="account" element={<Account/>} />
-          <Route path="myorderdetails" element={<MyOrderDetails/>} />
-          <Route path="myprofile" element={<MyProfile/>} />
-          <Route path="editmyprofile" element={<EditMyProfile/>} />
-          <Route path="address" element={<Address/>} />
-          <Route path="cancelorder" element={<CancelOrder/>} />
-          <Route path="cancelorderconfirmation" element={<CancelOrderConfirmation/>} />
-          <Route path="men" element={<Men/>} />
-          <Route path="women" element={<Women/>} />
-          <Route path="kids" element={<Kids/>} />
-          <Route path="homeliving" element={<HomeLiving/>} />
-          <Route path="beauty" element={<Beauty/>} />
+          <Route path="addressverification" element={<AddressVerification />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="addwishlistitems" element={<AddWishlistItems />} />
+          <Route path="orderconfirmation" element={<OrderConfirmation />} />
+          <Route path="myorder" element={<MyOrder />} />
+          <Route path="account" element={<Account />} />
+          <Route path="myorderdetails" element={<MyOrderDetails />} />
+          <Route path="myprofile" element={<MyProfile />} />
+          <Route path="editmyprofile" element={<EditMyProfile />} />
+          <Route path="address" element={<Address />} />
+          <Route path="cancelorder" element={<CancelOrder />} />
+          <Route
+            path="cancelorderconfirmation"
+            element={<CancelOrderConfirmation />}
+          />
+          <Route path="men" element={<Men />} />
+          <Route path="women" element={<Women />} />
+          <Route path="kids" element={<Kids />} />
+          <Route path="homeliving" element={<HomeLiving />} />
+          <Route path="beauty" element={<Beauty />} />
 
           <Route path="*" element={<Notfoun />} />
         </Routes>

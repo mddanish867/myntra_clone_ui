@@ -20,14 +20,15 @@
     padding: 30px;
     width: 100%;
 }
-
+._category_to_bag{
+    width: 170px;
+}
 .sale_item {
     width: 250px;
 }
 
 .sale_item_brands_atag {
-    width: 220px;
-    height: 300px;
+  width: 170px;
 }
 
 .category_heading {

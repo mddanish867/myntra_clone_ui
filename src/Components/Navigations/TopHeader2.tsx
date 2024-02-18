@@ -6,9 +6,17 @@ function TopHeader2() {
   const navigate = useNavigate();
   const { data } = useGetProductCategoryQuery(null);
   let mainCategories: any = [];
+  let categories: any = [];
   if (data) {
     let mainCategoryList = data.map((items: any) => items.mainCategory);
     mainCategories = Array.from(new Set(mainCategoryList));
+    for(let i =0; i < mainCategories.length; i++){
+      if(mainCategories === "Men"){
+        let categoryList = data.map((items: any) => items.category);
+        categories = Array.from(new Set(categoryList));
+        console.log(categories)
+      }  
+    }     
   }
 
   return (
@@ -27,11 +35,334 @@ function TopHeader2() {
                     
           <Link to={`/${elem}`} key={index}>{elem}</Link> 
         ))} */}
-        <Link to="/men"> Men  </Link>
-        <Link to="/women"> Women  </Link>
-        <Link to="/kids"> Kids  </Link>
-        <Link to="/homeliving"> Home & Living  </Link>
-        <Link to="/catalog"> Beauty  </Link>
+        <Link to="/men" className="nav_link">         
+          Men
+          <div className="nav_link_row">
+            {categories.map((elem:any,index:number)=>(
+              <div className="nav_links_column" key={index}>
+              <span className="heading_main">{elem.category}</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            ))}
+            
+            {/* <div className="nav_links_column">
+              <span className="heading_main">Second</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Third</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fourth</span>
+              <ul className="column_links">
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fifth</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div> */}
+          </div>
+        </Link>
+        <Link to="/women" className="nav_link">        
+          Women
+          <div className="nav_link_row">
+            <div className="nav_links_column">
+              <span className="heading_main">First</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Second</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Third</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fourth</span>
+              <ul className="column_links">
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fifth</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+        <Link to="/kids" className="nav_link">        
+          Kids
+          <div className="nav_link_row">
+            <div className="nav_links_column">
+              <span className="heading_main">First</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Second</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Third</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fourth</span>
+              <ul className="column_links">
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fifth</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+          </div>{" "}
+        </Link>
+        <Link to="/homeliving" className="nav_link">         
+          Home & Living
+          <div className="nav_link_row">
+            <div className="nav_links_column">
+              <span className="heading_main">First</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Second</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Third</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fourth</span>
+              <ul className="column_links">
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fifth</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+        <Link to="/catalog" className="nav_link">         
+          Beauty
+          <div className="nav_link_row">
+            <div className="nav_links_column">
+              <span className="heading_main">First</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Second</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Third</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fourth</span>
+              <ul className="column_links">
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+            <div className="nav_links_column">
+              <span className="heading_main">Fifth</span>
+              <ul>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+                <li>eeerer</li>
+              </ul>
+            </div>
+          </div>{" "}
+        </Link>
         <Link to="/">
           Studio <sup>New</sup>
         </Link>
