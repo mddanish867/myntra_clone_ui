@@ -1,8 +1,8 @@
-import React from 'react'
+import './HomeLiving.css';
 import { useGetProductCategoryDetailsQuery } from '../../../Apis/productCategoryApi';
 
 function HomeLiving() {
-    const { data } = useGetProductCategoryDetailsQuery("Home & Living");
+    const { data } = useGetProductCategoryDetailsQuery("Home %26 Living");
     let categories: any = [];
     if (data) {
       let categoryList = data.map((items: any) => items.category);

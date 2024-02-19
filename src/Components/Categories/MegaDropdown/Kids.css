@@ -6,10 +6,15 @@
     flex-direction: column;
 }
 .heading_category_kids{
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 30px;
     text-transform: capitalize;
-    color: #f26a10;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.heading_category_kids:hover{
+    font-weight: 600;
 }
 .nav_links_column_kids li{
     list-style: none;

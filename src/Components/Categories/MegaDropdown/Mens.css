@@ -6,12 +6,17 @@
     flex-direction: column;
 }
 .heading_category_men{
-    font-size: 13px;
+    font-size: 12px;
     text-transform: capitalize;
     margin-left: 30px;
-    color: #ee5f73;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.heading_category_men:hover{
+    font-weight: 600;
 }
 .nav_links_column_men li{
     list-style: none;
-    text-decoration: none;
+   
 }
