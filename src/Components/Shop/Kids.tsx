@@ -216,12 +216,12 @@ function Kids() {
        </Link>
         ))}                
      </div>
-     <div className="kids_category_to_bag">ICONIC BRANDS</div>
-     <div className="kids_shop_by_category_to_bag">  
+     <div className="kids_iconic_brands">ICONIC BRANDS</div>
+     <div className="kids_shop_by_iconic_brands">  
      {iconicBrands.map((elem:any,index:number)=>(  
          <Link to="" key={index}>
          <img
-           className="kids_biggest_deal_category_to_bag"
+           className="kids_iconic_brands_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>
@@ -240,48 +240,48 @@ function Kids() {
        </Link>
         ))}                
      </div>
-     <div className="kids_myntra_luxe">Explore More</div>
-     <div className="kids_shop_by_myntra_luxe">  
+     <div className="kids_myntra_exploremore">Explore More</div>
+     <div className="kids_shop_by_myntra_exploremore">  
      {exploreMore.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="kids_myntra_luxe_img"
+           className="kids_myntra_exploremore_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>
        </Link>
         ))}                
      </div>
-     <div className="kids_treding_indianwear">The Kids Space</div>
-     <div className="kids_shop_by_treding_indianwear">  
+     <div className="kids_kids_space">The Kids Space</div>
+     <div className="kids_shop_by_kids_space">  
      {kidSpace.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="kids_treding_indianwear_img"
+           className="kids_treding_kids_spaces_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>
        </Link>
         ))}                
      </div>
-     <div className="kids_sportwear">Budget Buys</div>
-     <div className="kids_shop_by_sportwear">  
+     <div className="kids_budgetbuy">Budget Buys</div>
+     <div className="kids_shop_by_budgetbuy">  
      {budgetBuys.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="kids_sportwear_img"
+           className="kids_budgetbuy_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>
        </Link>
         ))}                
      </div>
-     <div className="kids_trending_footwear">Shop More Brands</div>
-     <div className="kids_shop_by_trending_footwear">  
+     <div className="kids_shop_more_brands">Shop More Brands</div>
+     <div className="kids_shop_by_kids_shop_more_brands">  
      {shopAndMore.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="kids_trending_footwear_img"
+           className="kids_shop_more_brands_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>

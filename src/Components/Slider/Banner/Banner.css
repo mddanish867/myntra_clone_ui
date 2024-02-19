@@ -9,3 +9,11 @@
 .carousel-indicators{
     background: 0;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .banner_container{
+        width: 1200px;
+    }
+}
+

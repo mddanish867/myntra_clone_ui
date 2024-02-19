@@ -1,3 +1,30 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .mens_category_biggest_deal{
+        width:1200px;
+    }
+    .mens_shop_by_biggest_deal{
+        width:1200px;
+    }
+    .mens_biggest_deal_item_category {
+        width: 250px;
+    }
+    .mens_category_to_bag{
+        width: 1200px;
+    }
+    .mens_shop_by_category_to_bag{
+        width: 1200px;
+    }
+    .mens_biggest_deal_category_to_bag{
+        width: 100px;
+    }
+    .mens_explore_top_brands{
+        width: 1200px;
+    }
+    .mens_myntra_luxe{
+        width: 1200px;
+    }
+}
 .header {
     position: sticky;
     top: 0;
@@ -25,10 +52,11 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 10px;
 }
 .mens_biggest_deal_item_category {
-    width: 300px;
+    width: 280px;
 }
 .mens_category_to_bag{
     text-transform: uppercase;
@@ -46,7 +74,8 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 10px;
 }
 .mens_biggest_deal_category_to_bag{
     width: 170px;
@@ -67,7 +96,8 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 10px;
 }
 .mens_explre_top_brands_img{
     width: 200px;
@@ -88,10 +118,11 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 10px;
 }
 .mens_myntra_luxe_img{
-    width: 170px;
+    width: 180px;
 }
 .mens_treding_indianwear{
     text-transform: uppercase;
@@ -109,7 +140,7 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
 }
 .mens_treding_indianwear_img{
     width: 200px;
@@ -130,7 +161,7 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
 }
 .mens_sportwear_img{
     width: 200px;
@@ -151,7 +182,7 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
 }
 .mens_trending_footwear_img{
     width: 200px;
@@ -173,7 +204,7 @@
     margin-top: 45px;
     margin-bottom: 100px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
 }
 .mens_trending_accessories_img{
     width: 200px;

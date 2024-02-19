@@ -251,7 +251,7 @@ function Categories() {
     <>
    
     <div className="category_heading"> MEDAL WORTHY BRANDS TO BAG</div>
-    <div className="womens_shop_by_category_to_bag">  
+    <div className="shop_by_category_to_bag">  
      {medalWorthyBrands.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
@@ -266,7 +266,7 @@ function Categories() {
    
       
       <div className="category_heading"> GRAND GLOBAL BRANDS</div>
-      <div className="womens_shop_by_category_to_bag">  
+      <div className="shop_by_category_to_bag">  
      {grandGlobBrands.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img

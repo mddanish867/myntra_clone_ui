@@ -1,3 +1,42 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .kids_biggest_deal{
+    width: 1200px;
+   }
+   .kids_biggest_deal_img {
+    width: 90px;
+}
+.kids_iconic_brands{
+    width: 1200px;
+}
+.kids_shop_by_category_to_bag{
+    margin-left: 45px;
+}
+.kids_explore_top_brands{
+    width: 1200px;
+}
+.kids_shop_by_explore_to_brands{
+    margin-left: 35px;
+}
+.kids_myntra_exploremore{
+    width: 1200px;
+}
+.kids_shop_by_myntra_exploremore{
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    width: 1200px;
+}
+.kids_myntra_exploremore_img{
+    width: 300px;
+}
+.kids_budgetbuy{
+    width: 1200px;
+}
+.kids_shop_more_brands{
+    width: 1200px;
+}
+}
 .header {
     position: sticky;
     top: 0;
@@ -25,12 +64,13 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 30px;
 }
 .kids_biggest_deal_img {
-    width: 130px;
+    width: 126px;
 }
-.kids_category_to_bag{
+.kids_iconic_brands{
     text-transform: uppercase;
     color: #3e4152;
     letter-spacing: .15em;
@@ -40,16 +80,17 @@
     font-weight: 700;
     margin-top: 55px;
 }
-.kids_shop_by_category_to_bag{
+.kids_shop_by_iconic_brands{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 35px;
 }
-.kids_biggest_deal_category_to_bag{
-    width: 240.5px;
+.kids_iconic_brands_img{
+    width: 228px;
 }
 .kids_explore_top_brands{
     text-transform: uppercase;
@@ -67,12 +108,13 @@
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 35px;
 }
 .kids_explre_top_brands_img{
-    width: 230px;
+    width: 228px;
 }
-.kids_myntra_luxe{
+.kids_myntra_exploremore{
     text-transform: uppercase;
     color: #3e4152;
     letter-spacing: .15em;
@@ -82,18 +124,19 @@
     font-weight: 700;
     margin-top: 55px;
 }
-.kids_shop_by_myntra_luxe{
+.kids_shop_by_myntra_exploremore{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 35px;
 }
-.kids_myntra_luxe_img{
-    width: 600px;
+.kids_myntra_exploremore_img{
+    width: 550px;
 }
-.kids_treding_indianwear{
+.kids_kids_space{
     text-transform: uppercase;
     color: #3e4152;
     letter-spacing: .15em;
@@ -103,18 +146,19 @@
     font-weight: 700;
     margin-top: 55px;
 }
-.kids_shop_by_treding_indianwear{
+.kids_shop_by_kids_space{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 40px;
 }
-.kids_treding_indianwear_img{
-    width: 600px;
+.kids_treding_kids_spaces_img{
+    width: 550px;
 }
-.kids_sportwear{
+.kids_budgetbuy{
     text-transform: uppercase;
     color: #3e4152;
     letter-spacing: .15em;
@@ -124,18 +168,19 @@
     font-weight: 700;
     margin-top: 55px;
 }
-.kids_shop_by_sportwear{
+.kids_shop_by_budgetbuy{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 45px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 35px;
 }
-.kids_sportwear_img{
-    width: 200px;
+.kids_budgetbuy_img{
+    width: 180px;
 }
-.kids_trending_footwear{
+.kids_shop_more_brands{
     text-transform: uppercase;
     color: #3e4152;
     letter-spacing: .15em;
@@ -145,36 +190,16 @@
     font-weight: 700;
     margin-top: 55px;
 }
-.kids_shop_by_trending_footwear{
+.kids_shop_by_kids_shop_more_brands{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 45px;
     margin-bottom: 100px;
     padding: 30px;
-    width: 100%;
+    width: 1200px;
+    margin-left: 35px;
 }
-.kids_trending_footwear_img{
-    width: 230px;
-}
-.kids_trending_accessories{
-    text-transform: uppercase;
-    color: #3e4152;
-    letter-spacing: .15em;
-    font-size: 1.6em;
-    margin-left: 100px;
-    max-height: 5em;
-    font-weight: 700;
-    margin-top: 55px;
-}
-.kids_shop_by_trending_accessories{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 45px;
-    padding: 30px;
-    width: 100%;
-}
-.kids_trending_accessories_img{
+.kids_shop_more_brands_img{
     width: 200px;
 }

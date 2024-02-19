@@ -72,12 +72,12 @@ const featuredBrands = [
        <TopHeader2 />
      </div>
      <HomeLivingSlider/>
-     <div className="kids_myntra_luxe">Nice to See You, Come On In</div>
-     <div className="kids_shop_by_myntra_luxe">  
+     <div className="homeliving_nice">Nice to See You, Come On In</div>
+     <div className="homeliving_shop_by_nice">  
      {niceToSeeYou.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="kids_myntra_luxe_img"
+           className="homeliving_nice_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>

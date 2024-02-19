@@ -62,3 +62,7 @@
     margin: 30px 0px 0 10px;
     background: 0;
 }
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .footer_container{width: 100%;}
+}

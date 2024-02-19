@@ -219,12 +219,12 @@ function Women() {
        <TopHeader2 />
      </div>
      <WomenSlider/>
-     <div className="womens_biggest_deal">BIGGEST DEALS ON TOP BRANDS</div>
-     <div className="womens_shop_by_biggest_deal">  
+     <div className="womens_biggest_deal_topbrands">BIGGEST DEALS ON TOP BRANDS</div>
+     <div className="womens_shop_by_biggest_deal_topbrands">  
      {shoponBiggestdealBrands.map((elem:any,index:number)=>(  
          <Link to=""key={index}>
          <img
-           className="womens_biggest_deal_img"
+           className="womens_shop_by_biggest_deal_topbrands_img"
            src={elem.imgUrl}
            alt="no image"
          ></img>
