@@ -18,6 +18,13 @@ const productCategoryApi = createApi({
       }),
       providesTags: ["ProductCategory"],
     }),
+     // Egt Categories details by main category or category
+     getProductCategoryDetails: builder.query({
+      query: (category) => ({
+        url: `Categories/all_category?maincategory=${category}`,
+      }),
+      providesTags: ["ProductCategory"],
+    }),
     // getMenuItemById: builder.query({
     //   query: (id) => ({
     //     url: `menuItem/${id}`,
@@ -52,6 +59,7 @@ const productCategoryApi = createApi({
 
 export const {
   useGetProductCategoryQuery,
+  useGetProductCategoryDetailsQuery,
 //   useGetMenuItemByIdQuery,
 //   useCreateMenuItemMutation,
 //   useUpdateMenuItemMutation,

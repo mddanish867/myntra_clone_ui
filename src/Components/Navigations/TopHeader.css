@@ -208,11 +208,12 @@
     background-color: #fff;
 }
 .nav_link_row{
+    width: 1130px;
     display: flex;
     flex-direction: row;
-    left: 65px;
+    left: 35px;
     margin-right: 65px;
-    top: 79px;
+    top: 40px;
     line-height: 45px;
     position: absolute;
     opacity: 0;
@@ -223,15 +224,4 @@
 .nav_link:hover .nav_link_row{
     opacity: 1;
     visibility: visible;
-}
-.nav_links_column{
-    width: 225px;
-    padding: 10px;
-}
-.heading_main{
-    font-size: 16px;
-}
-.nav_links_column li{
-    list-style: none;
-    text-decoration: none;
 }
