@@ -1,3 +1,18 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .emptycart_header{
+        width: 100%;
+    }
+    .emptycart_address_stepper{
+        width: 100%;
+    }
+    .emptycart_auth_sec{
+        width: 100%;
+    }
+    .empty_cart{
+        width: 1200px;
+    }
+  }
 .empty_cart{
     display: flex;
     flex-direction: column;

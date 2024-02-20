@@ -1,3 +1,9 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {    
+    .empty_wishlist{
+     width: 1200px;
+    }
+   }
 .empty_wishlist{
     display: flex;
     flex-direction: column;

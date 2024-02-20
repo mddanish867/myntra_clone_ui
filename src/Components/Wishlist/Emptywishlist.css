@@ -1,3 +1,19 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .wishlist_cart_header{
+    width: 100%;
+   }
+   .wishlist_cart_address_stepper{
+    width: 100%;
+   }
+   .wishlist_auth_sec{
+    width: 100%;
+   }
+   .empty_wishlist_login_btn{
+    width: 1200px;
+    margin-left: 100px;
+   }
+  }
 .empty_wishlist_login_btn{
     display: flex;
     flex-direction: column;

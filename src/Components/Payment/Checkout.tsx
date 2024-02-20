@@ -362,7 +362,12 @@ function Checkout() {
                       type="text"
                       placeholder="Enter code shown in above image*"
                     ></input>
-                    <button className="Gapy_btn_payment" onClick={()=>(navigate("/orderconfirmation"))}>PAY NOW</button>
+                    <button
+                      className="Gapy_btn_payment"
+                      onClick={() => navigate("/orderconfirmation")}
+                    >
+                      PAY NOW
+                    </button>
                   </div>
                 ) : (
                   ""
@@ -398,34 +403,31 @@ function Checkout() {
             )}
             {isCardSelected && (
               <div className="recomend_options">
-              <p style={{ marginBottom: "30px" }}>
-                CREDIT/DEBIT CARD
-              </p>
+                <p style={{ marginBottom: "30px" }}>CREDIT/DEBIT CARD</p>
 
-              <span className="cod_payment_span">
+                <span className="cod_payment_span">
                   Please ensure your card can be used for online transactions.
                 </span>
-              <div className="Cod_payment">
-                
-                <input
-                  className="cod_payment_code"
-                  type="text"
-                  placeholder="Enter Card Number"
-                ></input>
-                <input
-                  className="cod_payment_code"
-                  type="text"
-                  placeholder="Name on card"
-                ></input>
-                <input
-                  className="cod_payment_code"
-                  type="text"
-                  placeholder="Valid Thru (MM/YY)"
-                ></input>
-                
-                <button className="cod_btn_payment">PAY NOW</button>
+                <div className="Cod_payment">
+                  <input
+                    className="cod_payment_code"
+                    type="text"
+                    placeholder="Enter Card Number"
+                  ></input>
+                  <input
+                    className="cod_payment_code"
+                    type="text"
+                    placeholder="Name on card"
+                  ></input>
+                  <input
+                    className="cod_payment_code"
+                    type="text"
+                    placeholder="Valid Thru (MM/YY)"
+                  ></input>
+
+                  <button className="cod_btn_payment">PAY NOW</button>
+                </div>
               </div>
-            </div>
             )}
           </div>
           {/* End Choose Payment Section */}
@@ -441,7 +443,7 @@ function Checkout() {
             <div className="discount_on_mrp">
               <span>
                 Discount on MRP{" "}
-                <Link to='' className="know_more_mrp_discount">
+                <Link to="" className="know_more_mrp_discount">
                   Know More
                 </Link>
               </span>
@@ -464,7 +466,7 @@ function Checkout() {
             <div className="platform_fee">
               <span>
                 Plateform Fee{" "}
-                <Link to='' className="know_more_platform_fee">
+                <Link to="" className="know_more_platform_fee">
                   Know More
                 </Link>
               </span>
@@ -475,7 +477,7 @@ function Checkout() {
             <div className="shippin_fee">
               <span>
                 Shipping Fee{" "}
-                <Link to='' className="know_more_shipping_fee">
+                <Link to="" className="know_more_shipping_fee">
                   Know More
                 </Link>
               </span>
