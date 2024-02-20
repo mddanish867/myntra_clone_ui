@@ -12,6 +12,9 @@
     font-weight: 400;
     text-decoration: none;
     color: black;
+    padding: 0;
+    margin-top: -25px;
+    background: 0;
 }
 .heading_category_kids:hover{
     font-weight: 600;

@@ -1,3 +1,36 @@
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .bg-default{
+        margin-left: 50px;
+    }
+    .total_product_count{
+        margin-left: -15px;
+    }
+    .catalog_filter{
+        margin-left: 50px;        
+    }
+    .mobile_view{
+        margin-left: 300px;
+        margin-top: -1200px;       
+    }
+    .catalog_item{
+        width: 400px; 
+        display: flex;
+        flex-direction: row;       
+    }
+    .caltalog_img{
+        width: 400px;
+        height: 500px;
+    }
+    .product_catalog_filter{
+        width: 600px;
+    }
+    .display_catalog_img{
+        display: flex;
+        flex-direction: row;
+    }
+}
 .icon-control {
     margin-top: 5px;
     float: right;

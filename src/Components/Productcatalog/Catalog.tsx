@@ -50,9 +50,9 @@ export default function Catalog() {
           <span style={{fontWeight:700}}>Jeans for Mens</span> - 13283
         </p>
       </div>
-      <div className="container my-4">
+      <div className="container my-4 catalog_filter">
         <div className="row">
-          <aside className="col-md-3" style={{ marginLeft: "-73px" }}>
+          <aside className="col-md-3 product_catalog_filter" style={{ marginLeft: "-73px" }}>
             <div className="card" style={{borderTop: "0",borderRight:"1px solid #eee",borderBottom:"0" }}>
               <article className="filter-group">
                 <header
@@ -789,7 +789,7 @@ export default function Catalog() {
               </article>
             </div>
           </aside>
-          <main className="col-md-9" style={{ width: "928px" }}>
+          <main className="col-md-9 mobile_view" style={{ width: "928px" }}>
             <header className="border-bottom mb-4 pb-3">
               <div
                 className="form-inline"
@@ -804,7 +804,7 @@ export default function Catalog() {
               </div>
             </header>
 
-            <div className="row">
+            <div className="row catalog_item">             
               <div className="col-md-3">
                 <figure
                   className="card card-product-grid"
@@ -815,7 +815,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/o/6/h/3xl-wl051-rose-unemode-original-imagsx53sv3drytm.jpeg?q=70"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -899,7 +899,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/w/y/o/m-flee18-navy-ewools-original-imagj6j87gauafru.jpeg?q=70&crop=false"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -972,8 +972,7 @@ export default function Catalog() {
                     </div>
                   </figcaption>
                 </figure>
-              </div>
-
+              </div>  
               <div className="col-md-3">
                 <figure
                   className="card card-product-grid"
@@ -983,7 +982,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/kyvvtzk0/jacket/t/t/e/xl-yes-kttpufferjacket102-kotty-original-imagbym5yvu9bpkt.jpeg?q=70&crop=false"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -1067,7 +1066,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/k23m4cw0/thermal/w/g/f/l-mulf-lt-001-set-cm-dollar-ultra-original-imaezx74k7q8y4m6.jpeg?q=70&crop=false"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -1151,7 +1150,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/u/x/n/s-wm17-ss01-tan-alan-jones-original-imaghhyjtv3hpywq.jpeg?q=70&crop=false"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -1235,7 +1234,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/5/1/h/xl-wmn-hdy-blk-iamdifrnt-sollobell-original-imagqqcpf4uzfy6h.jpeg?q=70"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -1319,7 +1318,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/o/k/y/xxl-dbsg00001051-deebaco-original-imagv3uhz5bdnnm5.jpeg?q=70"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
@@ -1403,7 +1402,7 @@ export default function Catalog() {
                     <img
                       src="https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/g/u/t/xl-dbsg00001022-deebaco-original-imagv3ugfhe4afgh.jpeg?q=70"
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid caltalog_img"
                     />
                   </div>
                   <figcaption className="info-wrap">
