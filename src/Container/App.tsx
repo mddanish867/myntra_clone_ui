@@ -26,6 +26,7 @@ import Women from "../Components/Shop/Women";
 import Kids from "../Components/Shop/Kids";
 import HomeLiving from "../Components/Shop/HomeLiving";
 import Beauty from "../Components/Shop/Beauty";
+import Catalogs from "../Components/Productcatalog/Catalogs";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="login" element={<Login />} />
+          <Route path="catalogs" element={<Catalogs/>}/>
           <Route path="catalog" element={<Catalog />} />
           <Route path="productdetails" element={<ProductDetails />} />
           <Route path="cartdetails" element={<CartDetails />} />

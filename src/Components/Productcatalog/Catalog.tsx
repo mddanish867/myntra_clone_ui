@@ -52,15 +52,15 @@ export default function Catalog() {
       </div>
       <div className="container my-4 catalog_filter">
         <div className="row">
-          <aside className="col-md-3 product_catalog_filter" style={{ marginLeft: "-73px" }}>
+          <div className="col-md-3 product_catalog_filter" style={{ marginLeft: "-73px" }}>
             <div className="card" style={{borderTop: "0",borderRight:"1px solid #eee",borderBottom:"0" }}>
-              <article className="filter-group">
-                <header
+              <div className="filter-group">
+                <div
                   className="card-header"
-                  style={{ marginLeft: "9px", marginTop: "-5px" }}
+                  style={{ marginLeft: "9px", }}
                 >
                   <Link
-                    to=''
+                    to='/catalogs'
                     data-toggle="collapse"
                     data-target="#collapse_1"
                     aria-expanded="true"
@@ -75,14 +75,14 @@ export default function Catalog() {
                       <b>FILTERS</b>
                     </p>
                   </Link>
-                </header>
+                </div>
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
                       className="pb-3"
                       style={{ marginTop: "-22px", marginLeft: "10px" }}
                     >
-                      <div className="input-group">
+                      <div className="">
                         {brandflag ? (
                           <input
                             type="text"
@@ -100,7 +100,7 @@ export default function Catalog() {
                           </p>
                         )}
 
-                        <div className="input-group-append ">
+                        <div className=" ">
                           <button
                             className="btn btn-light filter_search_icone"
                             type="button"
@@ -252,7 +252,7 @@ export default function Catalog() {
                     </ul>
                   </div>
                 </div>
-              </article>
+              </div>
               <article className="filter-group">
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
@@ -260,7 +260,7 @@ export default function Catalog() {
                       className="pb-3"
                       style={{ marginTop: "-22px", marginLeft: "10px" }}
                     >
-                      <div className="input-group">
+                      <div className="">
                         {brandflag ? (
                           <input
                             type="text"
@@ -278,7 +278,7 @@ export default function Catalog() {
                           </p>
                         )}
 
-                        <div className="input-group-append ">
+                        <div className=" ">
                           <button
                             className="btn btn-light filter_search_icone"
                             type="button"
@@ -438,7 +438,7 @@ export default function Catalog() {
                       className="pb-3"
                       style={{ marginTop: "-22px", marginLeft: "10px" }}
                     >
-                      <div className="input-group">
+                      <div className="">
                         {brandflag ? (
                           <input
                             type="text"
@@ -456,7 +456,7 @@ export default function Catalog() {
                           </p>
                         )}
 
-                        <div className="input-group-append ">
+                        <div className=" ">
                           <button
                             className="btn btn-light filter_search_icone"
                             type="button"
@@ -609,14 +609,14 @@ export default function Catalog() {
                   </div>
                 </div>
               </article>
-              <article className="filter-group">
+              <article className="">
                 <div className="filter-content collapse show" id="collapse_1">
                   <div className="card-body">
                     <form
                       className="pb-3"
                       style={{ marginTop: "-22px", marginLeft: "10px" }}
                     >
-                      <div className="input-group">
+                      <div className="">
                         {brandflag ? (
                           <input
                             type="text"
@@ -634,7 +634,7 @@ export default function Catalog() {
                           </p>
                         )}
 
-                        <div className="input-group-append ">
+                        <div className=" ">
                           <button
                             className="btn btn-light filter_search_icone"
                             type="button"
@@ -788,8 +788,8 @@ export default function Catalog() {
                 </div>
               </article>
             </div>
-          </aside>
-          <main className="col-md-9 mobile_view" style={{ width: "928px" }}>
+          </div>
+          <div className="col-md-9 mobile_view" style={{ width: "928px" }}>
             <header className="border-bottom mb-4 pb-3">
               <div
                 className="form-inline"
@@ -1507,7 +1507,7 @@ export default function Catalog() {
                 </li>
               </ul>
             </nav>
-          </main>
+          </div>
         </div>
       </div>
       <div className="footer">

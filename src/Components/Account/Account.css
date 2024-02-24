@@ -124,6 +124,7 @@
 }
 
 .check_order_status {
+    background: 0;
     display: flex;
     flex-direction: column;
     border: 1px solid #eee;
@@ -139,20 +140,23 @@
     cursor: pointer;
 }
 .check_order_status>img {
+    background: 0;
     width: 35px;
     margin-top: 60px;
 }
 .check_order_status>p{
+    background: 0;
     font-size: 14px;
     font-weight: 700;
     margin-top: 20px;
 }
 .check_order_status>span{
+    background: 0;
     font-size: 12px;
     color: gray;
     margin-top: -18px;
 }
-.check_collection_status {
+.check_collection_status {    
     display: flex;
     flex-direction: column;
     border: 1px solid #eee;
@@ -168,15 +172,18 @@
     cursor: pointer;
 }
 .check_collection_status>img {
+    background: 0;
     width: 35px;
     margin-top: 60px;
 }
 .check_collection_status>p{
+    background: 0;
     font-size: 14px;
     font-weight: 700;
     margin-top: 20px;
 }
 .check_collection_status>span{
+    background: 0;
     font-size: 12px;
     color: gray;
     margin-top: -18px;
@@ -197,15 +204,18 @@
     cursor: pointer;
 }
 .check_myntra_credits>img {
+    background: 0;
     width: 35px;
     margin-top: 60px;
 }
 .check_myntra_credits>p{
+    background: 0;
     font-size: 14px;
     font-weight: 700;
     margin-top: 20px;
 }
 .check_myntra_credits>span{
+    background: 0;
     font-size: 12px;
     color: gray;
     margin-top: -18px;

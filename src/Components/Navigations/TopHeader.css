@@ -1,3 +1,11 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {          
+    .nav_link:hover .nav_link_row{
+        opacity: 1;
+        visibility: visible;
+    }
+   }
+
 .dropdown-hover:hover>.dropdown-menu {
     display: inline-block;
 }
@@ -8,8 +16,9 @@
 }
 
 .myntra_home {
-    height: 66px;
-    margin-top: 4px;
+    height: 46px;
+    margin-left: -2px;
+    margin-top: -1px;
 }
 
 .logo_container {
