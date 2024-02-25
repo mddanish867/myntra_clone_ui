@@ -55,7 +55,7 @@ function TopHeader2() {
             <HomeLiving />
           </div>
         </Link>
-        <Link to="/catalog" className="nav_link">
+        <Link to="/catalogs" className="nav_link">
           Beauty
           <div className="nav_link_row">
             <Beauty />

@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Notfoun from "../Components/Notfound/Notfoun";
 import Login from "../Components/Authentication/Login";
-import Catalog from "../Components/Productcatalog/Catalog";
 import ProductDetails from "../Components/ProductDetails/ProductDetails";
 import CartDetails from "../Components/Cart/CartDetails";
 import Wishlist from "../Components/Wishlist/Wishlist";
@@ -36,7 +35,6 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="login" element={<Login />} />
           <Route path="catalogs" element={<Catalogs/>}/>
-          <Route path="catalog" element={<Catalog />} />
           <Route path="productdetails" element={<ProductDetails />} />
           <Route path="cartdetails" element={<CartDetails />} />
           <Route path="emptycart" element={<Emptycart />} />
