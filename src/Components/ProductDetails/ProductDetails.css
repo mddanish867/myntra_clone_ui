@@ -1,3 +1,25 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {          
+    .product_details{
+        width: 1200px;
+        margin-left: 20px;
+    }
+    .bg-default{
+        width: 1200px;
+    }
+    .shop_more_link{
+        width: 1200px;
+    }
+    .similar_products_main{
+        width: 1200px;
+    }
+    .shopthe_look_main{
+        width: 1200px;
+    }
+    .customer_also_liked_main{
+        width: 1200px;
+    }
+   }
 .icon-hover:hover {
     border-color: #3b71ca !important;
     background-color: white !important;
@@ -14,6 +36,9 @@
     align-items: center;
     background-color: #fff;
     box-shadow: "0 0px 10px 0 rgba(0, 0, 0, 0.14);";
+}
+.bg-default{
+    margin-left: 30px;
 }
 .breadcrum_links{
     color: black;
@@ -54,6 +79,10 @@
     padding-top: 12px;
     color: #ccc;
 }
+.product_size_box:hover{
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+}
 
 .size_radio{
     display: flex;
@@ -74,7 +103,7 @@
     flex-direction: row;
     margin-right: 13px;
     border: none;
-    background-color: #f54e77;
+    background-color: #ff3f6c;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -86,7 +115,7 @@
 .add_to_bag_btn_product:hover{
     margin-right: 13px;
     border: none;
-    background-color: #f54e77;
+    background-color: #f74a75;
     color: white;
    
 }
@@ -152,4 +181,65 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+.seller_name{
+    color: #f54e77;
+    font-weight: 600;
+    text-decoration: none;
+}
+.supplier_info{
+    font-size: 14px;
+}
+.shop_more_link{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.shop_mor_by_brands{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #f54e77;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 330px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.shop_mor_by_brands:hover{
+    border: 1px solid #f54e77;
+    cursor: pointer;
+}
+.shop_mor_by_color{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #f54e77;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.shop_mor_by_color:hover{
+    border: 1px solid #f54e77;
+    cursor: pointer;
+}
+.shop_mor_by_category{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #f54e77;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.shop_mor_by_category:hover{
+    border: 1px solid #f54e77;
+    cursor: pointer;
 }

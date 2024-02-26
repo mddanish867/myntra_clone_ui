@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import TopHeader2 from "../Navigations/TopHeader2";
 import "./ProductDetails.css";
+import SimilarProducts from "../Recommendation/SimilarProducts";
+import ShopTheLook from "../Recommendation/ShopTheLook";
+import CustomerAlsoLiked from "../Recommendation/CustomerAlsoLiked";
 
 function ProductDetails() {
   return (
@@ -9,71 +12,78 @@ function ProductDetails() {
       <div className="header">
         <TopHeader2 />
       </div>
-      <div className="bg-default" style={{marginTop:"5px"}}>
-        <div className="container py-4">
-          <nav className="d-flex">
+      <div className="bg-default" style={{ marginTop: "5px" }}>
+        <div className="py-4">          
             <h6 className="mb-0">
-              <Link to='' className="text-dark breadcrum_links">
-                Home
+              <Link to="" className="text-dark breadcrum_links">
+                <u style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}>Home</u>
               </Link>
-              <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <Link to='' className="text-dark breadcrum_links">
-                Library
+              <span className="text-dark-50 mx-1 breadcrum_links" style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}> / </span>
+              <Link to="" className="text-dark breadcrum_links">
+                <u style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}>Main Category</u>
               </Link>
-              <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
-              <Link to='' className="text-dark breadcrum_links">
-                <u>Data</u>
+              <span className="text-dark-50 mx-1 breadcrum_links" style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}> / </span>
+              <Link to="" className="text-dark breadcrum_links">
+                <u style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}>Category</u>
+              </Link>
+              <span className="text-dark-50 mx-1 breadcrum_links" style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}> / </span>
+              <Link to="" className="text-dark breadcrum_links">
+                <u style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}>Sub Category</u>
+              </Link>
+              <span className="text-dark-50 mx-1 breadcrum_links" style={{fontWeight:400,fontSize:"13px",textDecoration:"none"}}> / </span>
+              <Link to="" className="text-dark breadcrum_links" style={{fontSize:"13px"}}>
+                <b>Product Name</b>
               </Link>
             </h6>
-          </nav>
+          
         </div>
       </div>
 
       <div className="product_details">
         <div className="product_detail_image">
           <div className="category_items">
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/3/b/g/s-hlsh013507-highlander-original-imagdrcubg5hygkf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </Link>
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/g/i/i/s-hlsh013507-highlander-original-imagdrcuxzpzgpbz.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </Link>
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/9/p/p/s-hlsh013507-highlander-original-imagdrcufrhgtytk.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </Link>
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/5/a/u/s-hlsh013507-highlander-original-imagdrcuz8mbcff8.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </Link>
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/v/s/t/s-hlsh013507-highlander-original-imagdrcu5grajbzj.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
             </Link>
-            <Link to=''>
+            <Link to="">
               <img
                 className="sale_item"
                 src="https://rukminim2.flixcart.com/image/832/832/l2f20sw0/shirt/7/b/o/s-hlsh013507-highlander-original-imagdrcu4jhtbuaf.jpeg?q=70&crop=false"
                 alt="no image"
               ></img>
-            </Link>            
+            </Link>
           </div>
         </div>
         <div className="product_details_link">
@@ -82,11 +92,14 @@ function ProductDetails() {
             <p style={{ fontSize: "20px", color: "gray" }}>
               Typography Printed Pure Cotton Slim Fit T-shirt
             </p>
-            <div className="mb-3 price_details" style={{marginLeft:0}}>
-              <span className="h5 mx-1" style={{ fontWeight: 700,color:"black" }}>
+            <div className="mb-3 price_details" style={{ marginLeft: 0 }}>
+              <span
+                className="h5 mx-1"
+                style={{ fontWeight: 700, color: "black" }}
+              >
                 &#8377;552
               </span>
-              <span className="text-muted mx-1" style={{ fontWeight: 700}}>
+              <span className="text-muted mx-1" style={{ fontWeight: 700 }}>
                 {" "}
                 MRP &#8377;<del>758</del>
               </span>
@@ -122,8 +135,8 @@ function ProductDetails() {
                     autoComplete="off"
                   />
                   <label
-                    className="btn btn-outline-warning product_size_box"
-                    htmlFor="primary-outlined-xs"                   
+                    className="btn btn-outline-danger product_size_box"
+                    htmlFor="primary-outlined-xs"
                   >
                     XS
                   </label>
@@ -134,8 +147,8 @@ function ProductDetails() {
                     id="primary-outlined-s"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2 product_size_box"
-                    htmlFor="primary-outlined-s"                    
+                    className="btn btn-outline-danger mx-2 product_size_box"
+                    htmlFor="primary-outlined-s"
                   >
                     S
                   </label>
@@ -146,8 +159,8 @@ function ProductDetails() {
                     id="primary-outlined-l"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2 product_size_box"
-                    htmlFor="primary-outlined-l"                    
+                    className="btn btn-outline-danger mx-2 product_size_box"
+                    htmlFor="primary-outlined-l"
                   >
                     L
                   </label>
@@ -158,8 +171,9 @@ function ProductDetails() {
                     id="primary-outlined-xl"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2 product_size_box"
-                    htmlFor="primary-outlined-xl">
+                    className="btn btn-outline-danger mx-2 product_size_box"
+                    htmlFor="primary-outlined-xl"
+                  >
                     XL
                   </label>
                   <input
@@ -169,21 +183,22 @@ function ProductDetails() {
                     id="primary-outlined-xxl"
                   />
                   <label
-                    className="btn btn-outline-warning mx-2 product_size_box"
-                    htmlFor="primary-outlined-xxl">
+                    className="btn btn-outline-danger mx-2 product_size_box"
+                    htmlFor="primary-outlined-xxl"
+                  >
                     XXL
                   </label>
                 </div>
               </div>
             </div>
             <div className="product_buy_wish_btn">
-              <Link to='' className="btn btn-default1 add_to_bag_btn_product">
+              <Link to="" className="btn btn-default1 add_to_bag_btn_product">
                 <span className="material-symbols-outlined mx-1">
                   shopping_bag
                 </span>
                 ADD TO BAG
               </Link>
-              <Link to='' className="btn btn-default1 wishlist_btn">
+              <Link to="" className="btn btn-default1 wishlist_btn">
                 <span className="material-symbols-outlined mx-1">favorite</span>
                 WISHLIST
               </Link>
@@ -206,7 +221,7 @@ function ProductDetails() {
                 type="text"
                 placeholder="Enter pincode"
               ></input>
-              <Link className="pin_check_btn" to=''>
+              <Link className="pin_check_btn" to="">
                 Check
               </Link>
             </div>
@@ -263,7 +278,7 @@ function ProductDetails() {
 
             <div>
               <Link
-                to=''
+                to=""
                 style={{
                   display: "flex",
                   fontSize: "14px",
@@ -288,7 +303,7 @@ function ProductDetails() {
                 <li>EMI starting from Rs.26/month</li>
               </ul>
               <Link
-                to=''
+                to=""
                 style={{
                   display: "flex",
                   fontSize: "14px",
@@ -418,7 +433,7 @@ function ProductDetails() {
                 </div>
               </div>
               <Link
-                to=''
+                to=""
                 style={{
                   display: "flex",
                   fontSize: "12px",
@@ -442,9 +457,11 @@ function ProductDetails() {
               >
                 <p>Complete The Look</p>
               </div>
-              <p>Everyday becomes brighter and better with this collection of
-              towels from Nautica. Add color to your quotidian chores with this
-              easy to maintain bath linen collection.</p>
+              <p>
+                Everyday becomes brighter and better with this collection of
+                towels from Nautica. Add color to your quotidian chores with
+                this easy to maintain bath linen collection.
+              </p>
             </div>
             <hr style={{ marginTop: "35px", marginBottom: "35px" }} />
 
@@ -453,9 +470,12 @@ function ProductDetails() {
                 Product Code: <b>25851010</b>
               </p>
               <p>
-                Seller: <Link to=''></Link>FBAR
+                Seller:{" "}
+                <Link to="" className="seller_name">
+                  FBAR
+                </Link>
               </p>
-              <p>
+              <p className="supplier_info">
                 <b>View Supplier Information</b>
               </p>
             </div>
@@ -464,6 +484,34 @@ function ProductDetails() {
           </main>
         </div>
       </div>
+
+      <div className="similar_products_main">
+        <SimilarProducts />
+      </div>
+
+      <div className="shopthe_look_main">
+        <ShopTheLook />
+      </div>
+
+      <div className="shop_more_link">
+        <Link to={""} className="shop_mor_by_brands">
+          MORE SHIRTS BY ROADSTER{" "}
+          <span className="material-symbols-outlined mx-2">chevron_right</span>
+        </Link>
+        <Link to={""} className="shop_mor_by_color">
+          MORE BLUE SHIRTS{" "}
+          <span className="material-symbols-outlined mx-2">chevron_right</span>
+        </Link>
+        <Link to={""} className="shop_mor_by_category">
+          MORE SHIRTS{" "}
+          <span className="material-symbols-outlined mx-2">chevron_right</span>
+        </Link>
+      </div>
+
+      <div className="customer_also_liked_main">
+        <CustomerAlsoLiked />
+      </div>
+
       <div className="footer">
         <Footer />
       </div>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import TopHeader2 from "../Navigations/TopHeader2";
 import "./Catalogs.css";
@@ -7,7 +7,7 @@ import { useState } from "react";
 function Catalogs() {
   const [brandflag, setbrandflag] = useState(false);
   const [categoryflag, setcategoryflag] = useState(false);
-
+ const navigate = useNavigate();
   const handleBrandFlag = () => {
     if (brandflag === false) {
       setbrandflag(true);
@@ -42,13 +42,21 @@ function Catalogs() {
               <Link to="" className="text-dark breadcrum_links">
                 Home
               </Link>
-              <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
+              <span className="text-dark-50 mx-1 breadcrum_links"> / </span>
               <Link to="" className="text-dark breadcrum_links">
-                Library
+                Main Category
               </Link>
-              <span className="text-dark-50 mx-2 breadcrum_links"> / </span>
+              <span className="text-dark-50 mx-1 breadcrum_links"> / </span>
               <Link to="" className="text-dark breadcrum_links">
-                <u>Data</u>
+                <u>Category</u>
+              </Link>
+              <span className="text-dark-50 mx-1 breadcrum_links"> / </span>
+              <Link to="" className="text-dark breadcrum_links">
+                <u>Sub Category</u>
+              </Link>
+              <span className="text-dark-50 mx-1 breadcrum_links"> / </span>
+              <Link to="" className="text-dark breadcrum_links">
+                <b>Product Name</b>
               </Link>
             </p>
           </nav>
@@ -59,7 +67,7 @@ function Catalogs() {
         style={{ marginTop: "13px", display: "flex", flexDirection: "row" }}
       >
         <p className="my-2" style={{ fontSize: "15px", marginLeft: "27px" }}>
-          <span style={{ fontWeight: 700 }}>Jeans for Mens</span> - 13283
+          <span style={{ fontWeight: 700 }}>Sub category</span> - 13283
         </p>
       </div>
       <div className="main_catalog">
@@ -444,7 +452,7 @@ function Catalogs() {
 
         <div className="catalog_products">
           <div className="catalog_product_view">
-            <div className="">
+            <div className="" onClick={()=> navigate("/productdetails")}>
               <span className="badge badge-danger"> NEW </span>
               <img
                 src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7319901/2018/9/18/ede2810e-0a86-43aa-a7aa-27d3d95a9b5f1537268175318-Libas-Women-Pink--Grey-Printed-Kurta-with-Palazzos--Dupatta-4071537268175098-1.jpg"
@@ -464,7 +472,7 @@ function Catalogs() {
               <span className="catalog_button_name mx-1">Wishlist</span>
             </div>
 
-            <div className="catalog_product_price">
+            <div className="catalog_product_price" onClick={()=> navigate("/productdetails")}>
               <span
                 className="price"
                 style={{ fontWeight: 700, fontSize: "13px" }}
