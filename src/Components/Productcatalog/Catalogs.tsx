@@ -447,7 +447,7 @@ function Catalogs() {
             <div className="">
               <span className="badge badge-danger"> NEW </span>
               <img
-                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26388290/2024/1/30/28543942-00e2-49fc-b6ec-eae92efa39791706601385208-French-Connection-Men-Tshirts-9491706601384860-1.jpg"
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7319901/2018/9/18/ede2810e-0a86-43aa-a7aa-27d3d95a9b5f1537268175318-Libas-Women-Pink--Grey-Printed-Kurta-with-Palazzos--Dupatta-4071537268175098-1.jpg"
                 alt=""
                 className="img-fluid caltalog_img"
               />
@@ -457,10 +457,10 @@ function Catalogs() {
               <p>Mens Slim Tapered slim Tshirt</p>
             </div>
 
-            <div className="catalog_wishlist">                      
-                <span className="material-symbols-outlined catalog_icon">
-                  favorite
-                </span> 
+            <div className="catalog_wishlist">
+              <span className="material-symbols-outlined catalog_icon">
+                favorite
+              </span>
               <span className="catalog_button_name mx-1">Wishlist</span>
             </div>
 
@@ -486,14 +486,13 @@ function Catalogs() {
               </span>
             </div>
           </div>
-          
         </div>
         <div className="catalog_products">
           <div className="catalog_product_view">
             <div className="">
               <span className="badge badge-danger"> NEW </span>
               <img
-                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26388290/2024/1/30/28543942-00e2-49fc-b6ec-eae92efa39791706601385208-French-Connection-Men-Tshirts-9491706601384860-1.jpg"
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20695836/2022/11/10/ba1724c2-c606-481c-a0ca-63424b61a8661668078028270WomensRayonPrintedEmbroideredKurtaWithPantAndDupatta1.jpg"
                 alt=""
                 className="img-fluid caltalog_img"
               />
@@ -503,10 +502,10 @@ function Catalogs() {
               <p>Mens Slim Tapered slim Tshirt</p>
             </div>
 
-            <div className="catalog_wishlist">                      
-                <span className="material-symbols-outlined catalog_icon">
-                  favorite
-                </span> 
+            <div className="catalog_wishlist">
+              <span className="material-symbols-outlined catalog_icon">
+                favorite
+              </span>
               <span className="catalog_button_name mx-1">Wishlist</span>
             </div>
 
@@ -532,14 +531,13 @@ function Catalogs() {
               </span>
             </div>
           </div>
-          
         </div>
         <div className="catalog_products">
           <div className="catalog_product_view">
             <div className="">
               <span className="badge badge-danger"> NEW </span>
               <img
-                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26388290/2024/1/30/28543942-00e2-49fc-b6ec-eae92efa39791706601385208-French-Connection-Men-Tshirts-9491706601384860-1.jpg"
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25530934/2023/10/18/2a9225fc-fe89-42f4-9462-c5fdfb26840c1697623918434KALINIWomenMaroonPaisleyPrintedEmpireGottaPattiKurtawithTrou1.jpg"
                 alt=""
                 className="img-fluid caltalog_img"
               />
@@ -549,10 +547,10 @@ function Catalogs() {
               <p>Mens Slim Tapered slim Tshirt</p>
             </div>
 
-            <div className="catalog_wishlist">                      
-                <span className="material-symbols-outlined catalog_icon">
-                  favorite
-                </span> 
+            <div className="catalog_wishlist">
+              <span className="material-symbols-outlined catalog_icon">
+                favorite
+              </span>
               <span className="catalog_button_name mx-1">Wishlist</span>
             </div>
 
@@ -578,14 +576,13 @@ function Catalogs() {
               </span>
             </div>
           </div>
-          
         </div>
         <div className="catalog_products">
           <div className="catalog_product_view">
             <div className="">
               <span className="badge badge-danger"> NEW </span>
               <img
-                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/26388290/2024/1/30/28543942-00e2-49fc-b6ec-eae92efa39791706601385208-French-Connection-Men-Tshirts-9491706601384860-1.jpg"
+                src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25260156/2023/9/29/3d04b8b4-1104-4801-bed4-17ebf98223301695968509595KALINIWomenPinkEthnicMotifsYokeDesignRegularGottaPattiKurtaw1.jpg"
                 alt=""
                 className="img-fluid caltalog_img"
               />
@@ -595,10 +592,10 @@ function Catalogs() {
               <p>Mens Slim Tapered slim Tshirt</p>
             </div>
 
-            <div className="catalog_wishlist">                      
-                <span className="material-symbols-outlined catalog_icon">
-                  favorite
-                </span> 
+            <div className="catalog_wishlist">
+              <span className="material-symbols-outlined catalog_icon">
+                favorite
+              </span>
               <span className="catalog_button_name mx-1">Wishlist</span>
             </div>
 
@@ -624,7 +621,6 @@ function Catalogs() {
               </span>
             </div>
           </div>
-          
         </div>
       </div>
       <div className="footer">
