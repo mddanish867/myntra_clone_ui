@@ -12,8 +12,9 @@
 }
 
 .myntra_home {
-    height: 40px;
+    height: 45px;
     margin-top: 14px;
+    margin-left: -5px;
 }
 
 .cart_address_stepper {

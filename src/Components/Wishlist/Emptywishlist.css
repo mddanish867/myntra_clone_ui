@@ -65,8 +65,9 @@
     margin-top: 4px;
 }
 .wishlist_myntra_home {
-    height: 40px;
+    height: 45px;
     margin-top: 14px;
+    margin-left: -5px
 }
 .wishlist_cart_address_stepper {
     display: flex;
