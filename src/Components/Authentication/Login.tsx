@@ -11,10 +11,11 @@ function Login() {
         <div className="login_container">
           <img
             className="login_image"
-            src="https://as1.ftcdn.net/v2/jpg/01/99/04/90/1000_F_199049065_qQujFa3FnAcomYDDQrD3gLVBdxtYugeb.jpg"
+            src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/10/29/9610da61-a1a4-4215-b1fa-f612242d10e61698602536819-Flat_200--1-.jpg"
             alt="not found"
           ></img>
         </div>
+        <div className="login_main">
         <div className="login_header">
           <span className="login_signup">
             <b>Login</b> or <b>Signup</b>
@@ -66,6 +67,8 @@ function Login() {
             </Link>
           </span>
         </div>
+        </div>
+        
       </div>
     </>
   );
