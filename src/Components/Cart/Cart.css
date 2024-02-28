@@ -69,9 +69,9 @@
 }
 
 .check_pin_btn {
-    border: 1px solid rgb(255, 63, 108);
+    border: 1px solid #ff3e6c;
     background-color: white;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
     padding: 14px 28px;
     font-size: 14px;
     cursor: pointer;
@@ -85,8 +85,8 @@
 
 .check_pin_btn:hover {
     background-color: #f9e8f0;
-    color: rgb(255, 63, 108);
-    border: 1px solid rgb(255, 63, 108);
+    color: #ff3e6c;
+    border: 1px solid #ff3e6c;
 
 }
 
@@ -119,9 +119,9 @@ margin-top: 45px;
     color: #04966a;
 }
 .coupon_edit_btn{
-    border: 1px solid rgb(255, 63, 108);
+    border: 1px solid #ff3e6c;
     background-color: white;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
     font-size: 14px;
     cursor: pointer;
     border-radius: 2px;
@@ -134,8 +134,8 @@ margin-top: 45px;
 }
 .coupon_edit_btn:hover {
     background-color: #f9e8f0;
-    color: rgb(255, 63, 108);
-    border: 1px solid rgb(255, 63, 108);
+    color: #ff3e6c;
+    border: 1px solid #ff3e6c;
 
 }
 .product_summary_cart{
@@ -179,19 +179,19 @@ margin-top: 45px;
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
 }
 .know_more_platform_fee{
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
 }
 .know_more_shipping_fee{
     font-size: 13px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
 }
 .product_cart_total{
     font-size: 14px;
@@ -204,13 +204,13 @@ margin-top: 45px;
     height: 40px;
     border: 1px solid pink;
     color: #fff;
-    background-color: rgb(255, 63, 108);
+    background-color: #ff3e6c;
     margin-top: 15px;
     font-size: 14px;
     font-weight: 500;
 }
 .place_order_btn:hover{
-    background-color: rgb(249, 47, 95);
+    background-color: #ff3e6c;
 
 }
 .avail_offers{
@@ -234,16 +234,16 @@ margin-top: 45px;
     margin-left: -16px;
 }
 .show_more_btn{    
-    color: rgb(249, 47, 95);
+    color: #ff3e6c;
     margin-left: -480px;
     font-weight: 700;
     font-size: 13px;
 }
 .show_more_btn:hover{
-    color: rgb(249, 47, 95);
+    color: #ff3e6c;
 }
 .show_more_btn:focus{
-    color: rgb(249, 47, 95);
+    color: #ff3e6c;
     outline: none;
 }
 .remove_wishlist_btn{
@@ -288,8 +288,8 @@ margin-top: 45px;
     font-size: 14px;
 }
 .chkAlreadyDelivered:checked{
-    background-color: rgb(249, 47, 95);
-    border-color: rgb(249, 47, 95);;
+    background-color: #ff3e6c;
+    border-color: #ff3e6c;
 }
 .cart_product_card{
     display: flex;
@@ -355,7 +355,7 @@ margin-top: 45px;
 }
 .cart_product_login_btn{
     border: none;
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
     padding: 14px 28px;
     font-size: 14px;
     cursor: pointer;
@@ -367,7 +367,7 @@ margin-top: 45px;
     margin-left: 104px;
 }
 .cart_product_login_btn:hover{
-    color: rgb(255, 63, 108);
+    color: #ff3e6c;
 }
 .cart_product_login_btn:focus{
     color: rgb(255, 63, 108);

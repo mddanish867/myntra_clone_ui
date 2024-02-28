@@ -172,7 +172,7 @@
     font-weight: 700;
     margin-left: 413px;
     text-decoration: none;
-    color:rgb(249, 47, 95);
+    color:#ff3e6c;
 }
 .cancel_reason_main{
     display: flex;
@@ -270,10 +270,10 @@
 .cancel_request_btn>button{
     margin-left: 205px;
     width: 385px;
-    border: 1px solid rgb(249, 47, 95);
+    border: 1px solid #ff3e6c;
     height: 45px;
     margin-top: 18px;
-    background-color: rgb(249, 47, 95);
+    background-color: #ff3e6c;
     color: #fff;
     font-size: 12px;
     font-weight: 700;

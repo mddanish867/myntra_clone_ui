@@ -58,10 +58,10 @@ function Account() {
             <Link to="/myprofile" style={{ textDecoration: "none", color: "black" }}>
               Profile
             </Link>
-            <Link to="address" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="" style={{ textDecoration: "none", color: "black" }}>
               Saved Cards
             </Link>
-            <Link to="" style={{ textDecoration: "none", color: "black" }}>
+            <Link to="/address" style={{ textDecoration: "none", color: "black" }}>
               Addresses
             </Link>
             <Link to="" style={{ textDecoration: "none", color: "black" }}>

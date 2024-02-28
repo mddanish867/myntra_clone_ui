@@ -52,9 +52,9 @@
     font-size: 14px;
 }
 .empty_cart>button:focus{
-    border: 1px solid #f54e77;
+    border: 1px solid #ff3e6c;
     border-radius: 2px;
-    color: #f54e77;
+    color: #ff3e6c;
     font-weight: 700;
     font-size: 14px;
 }

@@ -51,11 +51,11 @@
 }
 
 .nav_bar>a:hover {
-    border-bottom: 3px solid #f54e77;
+    border-bottom: 3px solid #ff3e6c;
 }
 
 .nav_bar>a>sup {
-    color: #ff3f6c;
+    color: #ff3e6c;
     font-size: 10px;
 }
 
@@ -143,22 +143,22 @@
     font-weight: 600;
     text-transform: uppercase;
     border: 1px solid #eee;
-    color: #ff3f6c;
+    color: #ff3e6c;
     border-radius: 2px;
     margin-left: 15px;
     margin-top: 15px;
 }
 
 .login_btn:focus {
-    border: 1px solid #ff3f6c;
+    border: 1px solid #ff3e6c;
     background-color: #fff;
-    color: #ff3f6c;
+    color: #ff3e6c;
 }
 
 .login_btn:hover {
-    border: 1px solid #ff3f6c;
+    border: 1px solid #ff3e6c;
     background-color: #fff;
-    color: #ff3f6c;
+    color: #ff3e6c;
 }
 
 .profile_lnk_hover {

@@ -82,20 +82,20 @@
     border-radius: 3px;
     margin-top: 15px;
     margin-left: 15px;
-    border: 1px solid rgb(249, 47, 95);
-    color: rgb(249, 47, 95);
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
     font-size: 10px;
     font-weight: 700;
     padding: 8px;
     padding-left: 17px;
 }
 .btn-default:hover{
-    border: 1px solid rgb(249, 47, 95);
-    color: rgb(249, 47, 95);
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
 }
 .btn-default:focus{
-    border: 1px solid rgb(249, 47, 95);
-    color: rgb(249, 47, 95);
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
 }
 .btn-default > span{
     margin-top: -6px;
@@ -126,7 +126,7 @@
 }
 .order_pay>a{
     text-decoration: none;
-    color: rgb(249, 47, 95);
+    color: #ff3e6c;
     font-weight: 700;
 }
 .paynow_image{
@@ -182,8 +182,8 @@
 }
 .btn_view_order{
     padding: 9px;
-    background-color: rgb(249, 47, 95);
-    border: 1px solid rgb(249, 47, 95);
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
     color: #fff;
     font-weight: 600;
     width: 280px;

@@ -80,8 +80,8 @@
     color: #ccc;
 }
 .product_size_box:hover{
-    border: 1px solid #ff3f6c;
-    color: #ff3f6c;
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
 }
 
 .size_radio{
@@ -103,7 +103,7 @@
     flex-direction: row;
     margin-right: 13px;
     border: none;
-    background-color: #ff3f6c;
+    background-color: #ff3e6c;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -120,7 +120,7 @@
    
 }
 .add_to_bag_btn_product:focus{   
-    background-color: #f54e77;   
+    background-color: #f74a75;   
 }
 .add_to_bag_btn_product>span{
     background: 0;
@@ -168,7 +168,7 @@
     padding-top: 10px;
     padding-right: 12px;
     text-decoration: none;
-    color: #f54e77;
+    color: #ff3e6c;
     font-size: 12px;
     font-weight: 700;
 }
@@ -183,7 +183,7 @@
     align-items: start;
 }
 .seller_name{
-    color: #f54e77;
+    color: #ff3e6c;
     font-weight: 600;
     text-decoration: none;
 }
@@ -199,7 +199,7 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #f54e77;
+    color: #ff3e6c;
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 15px;
@@ -208,14 +208,14 @@
     font-weight: 700;
 }
 .shop_mor_by_brands:hover{
-    border: 1px solid #f54e77;
+    border: 1px solid #ff3e6c;
     cursor: pointer;
 }
 .shop_mor_by_color{
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #f54e77;
+    color: #ff3e6c;
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 15px;
@@ -224,14 +224,14 @@
     font-weight: 700;
 }
 .shop_mor_by_color:hover{
-    border: 1px solid #f54e77;
+    border: 1px solid #ff3e6c;
     cursor: pointer;
 }
 .shop_mor_by_category{
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    color: #f54e77;
+    color: #ff3e6c;
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 15px;

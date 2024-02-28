@@ -70,8 +70,8 @@ flex-direction: row;}
 }
 
 .boxed input[type="radio"]:checked + label {
-  border: solid 1px #ff3f6c;
-  color: #ff3f6c;
+  border: solid 1px #ff3e6c;
+  color: #ff3e6c;
 }
 div.addnew_address {
   max-height: 350px;
@@ -79,13 +79,13 @@ div.addnew_address {
 }
 .add_addresspopup_btn{
   font-size: 14px;
-    border: 1px solid #ff3f6c!important;
+    border: 1px solid #ff3e6c!important;
     width: 435px;
     margin-right: 25px;
     font-weight: 700;
     padding: 12px;
     color: #fff;
-    background-color: #ff3f6c!important;
+    background-color: #ff3e6c!important;
 }
 .popup_addres_header{
   font-size: 14px;
