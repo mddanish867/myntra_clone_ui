@@ -26,7 +26,6 @@ import Kids from "../Components/Shop/Kids";
 import HomeLiving from "../Components/Shop/HomeLiving";
 import Beauty from "../Components/Shop/Beauty";
 import Catalogs from "../Components/Productcatalog/Catalogs";
-
 function App() {
   return (
     <div className="App">
