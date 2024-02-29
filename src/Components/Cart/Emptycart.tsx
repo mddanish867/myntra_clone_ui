@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Emptycart.css';
 
 function Emptycart() {
+  const navigate = useNavigate();
   return (
     <>
     <div className="emptycart_header">
@@ -37,7 +38,7 @@ function Emptycart() {
       <img src='https://constant.myntassets.com/checkout/assets/img/empty-bag.png' alt=''></img>
       <h4>Hey, its feels so light!</h4>
       <p>There is nothing in your cart. Let's add some items.</p>
-      <button className='btn btn-default'>ADD ITEMS FROM WISHLIST</button>
+      <button className='btn btn-default' onClick={()=> navigate("/emptywishlist")}>ADD ITEMS FROM WISHLIST</button>
     </div>
     </>
    

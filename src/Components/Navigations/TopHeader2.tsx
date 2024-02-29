@@ -169,7 +169,7 @@ function TopHeader2() {
           </span>
           <span
             className="action_name"
-            onClick={() => navigate("/emptywishlist")}
+            onClick={() => navigate("/wishlist")}
           >
             Wishlist
           </span>

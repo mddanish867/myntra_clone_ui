@@ -125,7 +125,7 @@ function Wishlist() {
             </div>
 
             <div className="btn_move_to_bag">
-              <Link className="btn_mvto_bag_link" to={"/cart"}>
+              <Link className="btn_mvto_bag_link" to={"/cartdetails"}>
                 MOVE TO BAG
               </Link>
             </div>
